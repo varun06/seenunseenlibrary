@@ -44,7 +44,6 @@ scripts/
 # CSV files (data is in public/data/books.json)
 *.csv
 
-# Keep public/data and public/images for runtime
-!public/data
-!public/images
+# Keep public directory for runtime
+!public
 

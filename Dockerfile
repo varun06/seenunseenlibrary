@@ -28,9 +28,12 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 nextjs
 
 # Copy necessary files from builder
-COPY --from=builder /app/public ./public
+# Next.js standalone output includes server.js and public folder in .next/standalone/public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+# Note: Public folder is included in .next/standalone/public automatically
+# The docker-compose.yml mounts ./public from host, so no separate copy needed
 
 USER nextjs
 
