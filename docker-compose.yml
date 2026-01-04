@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  bookshelf:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: seenunseen-bookshelf
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      # Mount data directory so books.json persists
+      - ./public/data:/app/public/data:ro
+      # Mount images directory so covers persist
+      - ./public/images:/app/public/images:ro
+    restart: unless-stopped
+    networks:
+      - bookshelf-network
+
+networks:
+  bookshelf-network:
+    driver: bridge
+
