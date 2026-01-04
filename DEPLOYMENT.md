@@ -6,15 +6,23 @@ This guide explains how to deploy the SeenUnseen Bookshelf on your local network
 
 - Docker installed on your machine
 - Docker Compose installed (usually comes with Docker Desktop)
-- The `public/data/books.json` file generated (run `npm run process-data` first)
+- **Important**: Create the data directory and generate `public/data/books.json` first (see "Prepare Your Data" below)
 
 ## Quick Start
 
-1. **Prepare your data** (if not already done):
+1. **Prepare your data** (required before Docker build):
    ```bash
+   # Create necessary directories
+   npm run create-dirs
+   
+   # Process CSV files and generate books.json
    npm run process-data
-   npm run fetch-covers  # Optional: fetch book covers
+   
+   # Optional: fetch book covers (takes 15-20 minutes for 1400+ books)
+   npm run fetch-covers
    ```
+   
+   **Note**: The `public/data` and `public/images` directories must exist on your host machine before running Docker. If they don't exist, Docker will create empty directories, but the app won't work without `books.json`.
 
 2. **Build and start the container**:
    ```bash

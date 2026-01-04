@@ -12,6 +12,7 @@ services:
       - NODE_ENV=production
     volumes:
       # Mount data directory so books.json persists
+      # Docker will create the directory if it doesn't exist
       - ./public/data:/app/public/data:ro
       # Mount images directory so covers persist
       - ./public/images:/app/public/images:ro

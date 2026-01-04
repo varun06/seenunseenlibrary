@@ -31,13 +31,25 @@ export default function Home() {
   useEffect(() => {
     // Load books data
     fetch('/data/books.json')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) {
+          throw new Error(`Failed to load books: ${res.status}`)
+        }
+        return res.json()
+      })
       .then(data => {
-        setBooks(data)
+        if (Array.isArray(data)) {
+          setBooks(data)
+        } else {
+          console.error('Invalid book data format')
+          setBooks([])
+        }
         setLoading(false)
       })
       .catch(err => {
         console.error('Error loading books:', err)
+        console.error('Make sure to run: npm run process-data')
+        setBooks([])
         setLoading(false)
       })
   }, [])
