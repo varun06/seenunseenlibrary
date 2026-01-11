@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import type { Book } from '@/app/page'
+import StatusBadge from './StatusBadge'
 
 interface StackViewProps {
     books: Book[]
@@ -17,13 +18,22 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
     const [sortBy, setSortBy] = useState<SortOption>('episodes-desc')
 
     const filteredAndSortedBooks = useMemo(() => {
-        // First filter by search query
-        let filtered = books.filter((book) =>
+        // Deduplicate by ID first (use Map to preserve order and guarantee uniqueness)
+        const uniqueBooksMap = new Map<string, Book>()
+        books.forEach((book) => {
+            if (!uniqueBooksMap.has(book.id)) {
+                uniqueBooksMap.set(book.id, book)
+            }
+        })
+        const uniqueBooks = Array.from(uniqueBooksMap.values())
+
+        // Filter by search query
+        const filtered = uniqueBooks.filter((book) =>
             book.title.toLowerCase().includes(searchQuery.toLowerCase())
         )
 
-        // Then sort
-        filtered.sort((a, b) => {
+        // Sort (create new array to avoid mutation)
+        const sorted = [...filtered].sort((a, b) => {
             switch (sortBy) {
                 case 'episodes-desc':
                     return b.episodeCount - a.episodeCount // Most mentioned first
@@ -36,7 +46,18 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
             }
         })
 
-        return filtered
+        // Final safety check - deduplicate one more time
+        const seen = new Set<string>()
+        const result = sorted.filter((book) => {
+            if (seen.has(book.id)) {
+                console.warn(`Duplicate book ID in filtered list: ${book.id} - ${book.title}`)
+                return false
+            }
+            seen.add(book.id)
+            return true
+        })
+
+        return result
     }, [books, searchQuery, sortBy])
 
     return (
@@ -48,6 +69,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                     placeholder="Search books..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
+                    aria-label="Search books"
                     className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 />
 
@@ -87,7 +109,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                             className="cursor-pointer"
                             onClick={() => onBookClick(book)}
                         >
-                            <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden">
+                            <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden relative">
                                 {book.cover ? (
                                     <div className="relative w-full aspect-[2/3] bg-gray-200">
                                         <Image
@@ -97,12 +119,18 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                                             className="object-cover"
                                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                                         />
+                                        <div className="absolute top-2 right-2">
+                                            <StatusBadge bookId={book.id} />
+                                        </div>
                                     </div>
                                 ) : (
                                     <div
-                                        className="w-full aspect-[2/3] flex items-center justify-center p-4"
+                                        className="w-full aspect-[2/3] flex items-center justify-center p-4 relative"
                                         style={{ backgroundColor: book.backgroundColor }}
                                     >
+                                        <div className="absolute top-2 right-2">
+                                            <StatusBadge bookId={book.id} />
+                                        </div>
                                         <p
                                             className="text-sm font-medium text-center"
                                             style={{ color: book.textColor }}
@@ -112,14 +140,21 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                                     </div>
                                 )}
                                 <div className="p-3">
-                                    <h3 className="text-sm font-medium text-gray-900 line-clamp-2 mb-1">
-                                        {book.title}
-                                    </h3>
-                                    {book.episodeCount > 0 && (
-                                        <p className="text-xs text-gray-500">
-                                            {book.episodeCount} episode{book.episodeCount !== 1 ? 's' : ''}
-                                        </p>
-                                    )}
+                                    <div className="flex items-start justify-between gap-2 mb-1">
+                                        <h3 className="text-sm font-medium text-gray-900 line-clamp-2 flex-1">
+                                            {book.title}
+                                        </h3>
+                                    </div>
+                                    <div className="flex items-center justify-between">
+                                        {book.episodeCount > 0 && (
+                                            <p className="text-xs text-gray-500">
+                                                {book.episodeCount} episode{book.episodeCount !== 1 ? 's' : ''}
+                                            </p>
+                                        )}
+                                        <div className="sm:hidden">
+                                            <StatusBadge bookId={book.id} />
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </motion.div>

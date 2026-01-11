@@ -1,9 +1,10 @@
 'use client'
 
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import type { Book } from '@/app/page'
+import BookStatusButton from './BookStatusButton'
 
 interface BookModalProps {
     book: Book
@@ -11,11 +12,27 @@ interface BookModalProps {
 }
 
 export default function BookModal({ book, onClose }: BookModalProps) {
+    const modalRef = useRef<HTMLDivElement>(null)
+    const previousActiveElement = useRef<HTMLElement | null>(null)
+
     useEffect(() => {
         // Prevent body scroll when modal is open
         document.body.style.overflow = 'hidden'
+
+        // Store the previously focused element
+        previousActiveElement.current = document.activeElement as HTMLElement
+
+        // Focus the modal when it opens
+        if (modalRef.current) {
+            modalRef.current.focus()
+        }
+
         return () => {
             document.body.style.overflow = 'unset'
+            // Return focus to the previously focused element
+            if (previousActiveElement.current) {
+                previousActiveElement.current.focus()
+            }
         }
     }, [])
 
@@ -29,6 +46,37 @@ export default function BookModal({ book, onClose }: BookModalProps) {
         return () => window.removeEventListener('keydown', handleEscape)
     }, [onClose])
 
+    // Trap focus within modal
+    useEffect(() => {
+        const handleTabKey = (e: KeyboardEvent) => {
+            if (e.key !== 'Tab' || !modalRef.current) return
+
+            const focusableElements = modalRef.current.querySelectorAll(
+                'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+            )
+            const firstElement = focusableElements[0] as HTMLElement
+            const lastElement = focusableElements[focusableElements.length - 1] as HTMLElement
+
+            if (e.shiftKey) {
+                if (document.activeElement === firstElement) {
+                    e.preventDefault()
+                    lastElement?.focus()
+                }
+            } else {
+                if (document.activeElement === lastElement) {
+                    e.preventDefault()
+                    firstElement?.focus()
+                }
+            }
+        }
+
+        const modal = modalRef.current
+        if (modal) {
+            modal.addEventListener('keydown', handleTabKey)
+            return () => modal.removeEventListener('keydown', handleTabKey)
+        }
+    }, [])
+
     return (
         <AnimatePresence>
             <motion.div
@@ -39,14 +87,19 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                 onClick={onClose}
             >
                 <motion.div
+                    ref={modalRef}
+                    tabIndex={-1}
                     initial={{ scale: 0.9, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
                     exit={{ scale: 0.9, opacity: 0 }}
                     onClick={(e) => e.stopPropagation()}
-                    className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+                    className="bg-white rounded-2xl shadow-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto outline-none"
+                    role="dialog"
+                    aria-modal="true"
+                    aria-labelledby="modal-title"
                 >
                     <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between z-10">
-                        <h2 className="text-xl font-bold text-gray-900">Book Details</h2>
+                        <h2 id="modal-title" className="text-xl font-bold text-gray-900">Book Details</h2>
                         <button
                             onClick={onClose}
                             className="text-gray-400 hover:text-gray-600 transition-colors"
@@ -105,27 +158,30 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                                         {book.episodeCount} episode{book.episodeCount !== 1 ? 's' : ''}
                                     </span>
                                 </div>
-                                <a
-                                    href={book.amazonLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
-                                >
-                                    <span>View on Amazon</span>
-                                    <svg
-                                        className="w-4 h-4"
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
+                                <div className="flex flex-wrap gap-3 mb-4">
+                                    <BookStatusButton bookId={book.id} />
+                                    <a
+                                        href={book.amazonLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
                                     >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth={2}
-                                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                                        />
-                                    </svg>
-                                </a>
+                                        <span>View on Amazon</span>
+                                        <svg
+                                            className="w-4 h-4"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            viewBox="0 0 24 24"
+                                        >
+                                            <path
+                                                strokeLinecap="round"
+                                                strokeLinejoin="round"
+                                                strokeWidth={2}
+                                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                                            />
+                                        </svg>
+                                    </a>
+                                </div>
                             </div>
                         </div>
 
