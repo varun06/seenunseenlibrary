@@ -76,12 +76,12 @@ async function processBooksData() {
         }
 
         // Deduplicate episodes by episode number
-        const episodeNum = entry['Episode Number'];
+        const episodeNum = parseInt(entry['Episode Number']) || 0;
         const existing = episodeMap.get(asin).find(e => e.episodeNum === episodeNum);
 
         if (!existing) {
             episodeMap.get(asin).push({
-                episodeNum: parseInt(episodeNum) || 0,
+                episodeNum: episodeNum,
                 episodeTitle: entry['Episode Title'] || '',
                 episodeDate: entry['Episode Date'] || '',
                 episodeUrl: entry['Episode URL'] || ''
