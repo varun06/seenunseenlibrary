@@ -6,6 +6,7 @@ const { URL } = require('url');
 
 // Import cover fetching functions
 const { fetchCoverForBook } = require('./fetch_covers');
+const { deduplicateBooks } = require('./deduplicate_books');
 
 // Configuration
 const BOOKS_JSON = path.join(__dirname, '../public/data/books.json');
@@ -509,11 +510,27 @@ async function processEpisode(episodeUrl) {
             await fetchCoversForNewBooks(newBooks);
         }
 
+        // Deduplicate books (merge duplicates by title)
+        console.log('\n🔍 Deduplicating books...');
+        const allBooks = JSON.parse(fs.readFileSync(BOOKS_JSON, 'utf-8'));
+        const { books: deduplicatedBooks, stats } = deduplicateBooks(allBooks);
+
+        if (stats.totalDuplicates > 0) {
+            // Backup before deduplication
+            const backupPath = BOOKS_JSON + '.backup.' + Date.now();
+            fs.writeFileSync(backupPath, JSON.stringify(allBooks, null, 2));
+            fs.writeFileSync(BOOKS_JSON, JSON.stringify(deduplicatedBooks, null, 2));
+            console.log(`   ✅ Removed ${stats.totalDuplicates} duplicate(s) (${stats.titleDuplicates} by title, ${stats.idDuplicates} by ID)`);
+        } else {
+            console.log('   ✅ No duplicates found');
+        }
+
         console.log('='.repeat(60));
         console.log('✅ SUCCESS!');
         console.log('='.repeat(60));
         console.log(`   New books added: ${newBooks.length}`);
         console.log(`   Existing books updated: ${updatedBooks.length}`);
+        console.log(`   Total unique books: ${deduplicatedBooks.length}`);
         console.log('='.repeat(60) + '\n');
 
     } catch (error) {

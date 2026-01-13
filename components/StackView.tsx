@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import type { Book } from '@/app/page'
@@ -15,22 +15,37 @@ type SortOption = 'title' | 'episodes-desc' | 'episodes-asc'
 
 export default function StackView({ books, onBookClick }: StackViewProps) {
     const [searchQuery, setSearchQuery] = useState('')
+    const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('')
     const [sortBy, setSortBy] = useState<SortOption>('episodes-desc')
 
-    const filteredAndSortedBooks = useMemo(() => {
-        // Deduplicate by ID first (use Map to preserve order and guarantee uniqueness)
-        const uniqueBooksMap = new Map<string, Book>()
-        books.forEach((book) => {
-            if (!uniqueBooksMap.has(book.id)) {
-                uniqueBooksMap.set(book.id, book)
-            }
-        })
-        const uniqueBooks = Array.from(uniqueBooksMap.values())
+    // Debounce search input (300ms delay)
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setDebouncedSearchQuery(searchQuery)
+        }, 300)
 
+        return () => clearTimeout(timer)
+    }, [searchQuery])
+
+    // Deduplicate books once (books prop should already be deduplicated, but this is a safety check)
+    const uniqueBooks = useMemo(() => {
+        const seen = new Set<string>()
+        return books.filter((book) => {
+            if (seen.has(book.id)) {
+                return false
+            }
+            seen.add(book.id)
+            return true
+        })
+    }, [books])
+
+    const filteredAndSortedBooks = useMemo(() => {
         // Filter by search query
-        const filtered = uniqueBooks.filter((book) =>
-            book.title.toLowerCase().includes(searchQuery.toLowerCase())
-        )
+        const filtered = debouncedSearchQuery
+            ? uniqueBooks.filter((book) =>
+                book.title.toLowerCase().includes(debouncedSearchQuery.toLowerCase())
+            )
+            : uniqueBooks
 
         // Sort (create new array to avoid mutation)
         const sorted = [...filtered].sort((a, b) => {
@@ -46,19 +61,15 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
             }
         })
 
-        // Final safety check - deduplicate one more time
-        const seen = new Set<string>()
-        const result = sorted.filter((book) => {
-            if (seen.has(book.id)) {
-                console.warn(`Duplicate book ID in filtered list: ${book.id} - ${book.title}`)
-                return false
-            }
-            seen.add(book.id)
-            return true
-        })
+        return sorted
+    }, [uniqueBooks, debouncedSearchQuery, sortBy])
 
-        return result
-    }, [books, searchQuery, sortBy])
+    const handleBookClick = useCallback(
+        (book: Book) => {
+            onBookClick(book)
+        },
+        [onBookClick]
+    )
 
     return (
         <div className="w-full">
@@ -102,22 +113,24 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                     {filteredAndSortedBooks.map((book, index) => (
                         <motion.div
                             key={book.id}
-                            initial={{ opacity: 0, y: 20 }}
+                            initial={{ opacity: 0, y: 10 }}
                             animate={{ opacity: 1, y: 0 }}
-                            exit={{ opacity: 0, y: -20 }}
-                            transition={{ delay: index * 0.02 }}
+                            exit={{ opacity: 0, scale: 0.95 }}
+                            transition={{ duration: 0.2 }}
                             className="cursor-pointer"
-                            onClick={() => onBookClick(book)}
+                            onClick={() => handleBookClick(book)}
                         >
                             <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden relative">
                                 {book.cover ? (
-                                    <div className="relative w-full aspect-[2/3] bg-gray-200">
+                                    <div className="relative w-full aspect-[2/3] bg-gray-200 overflow-hidden">
                                         <Image
                                             src={book.cover}
                                             alt={book.title}
                                             fill
-                                            className="object-cover"
+                                            className="object-cover transition-opacity duration-200"
                                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                                            loading={index < 20 ? 'eager' : 'lazy'}
+                                            quality={85}
                                         />
                                         <div className="absolute top-2 right-2">
                                             <StatusBadge bookId={book.id} />
@@ -164,7 +177,11 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
 
             {filteredAndSortedBooks.length === 0 && (
                 <div className="text-center py-12">
-                    <p className="text-gray-500">No books found matching "{searchQuery}"</p>
+                    <p className="text-gray-500">
+                        {searchQuery
+                            ? `No books found matching "${searchQuery}"`
+                            : 'No books found'}
+                    </p>
                 </div>
             )}
         </div>
