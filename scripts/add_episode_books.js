@@ -70,19 +70,70 @@ function extractEpisodeInfo(episodeUrl) {
     return null;
 }
 
+function isShortLink(url) {
+    return /amzn\.(in|to|com)\/d\/[A-Za-z0-9]+/.test(url);
+}
+
+function resolveShortLink(shortUrl) {
+    return new Promise((resolve, reject) => {
+        const protocol = shortUrl.startsWith('https') ? https : http;
+
+        const req = protocol.get(shortUrl, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+            },
+            timeout: 10000
+        }, (response) => {
+            if (response.statusCode === 301 || response.statusCode === 302 || response.statusCode === 307 || response.statusCode === 308) {
+                const redirectUrl = response.headers.location;
+                if (redirectUrl) {
+                    // Handle relative URLs
+                    const absoluteUrl = new URL(redirectUrl, shortUrl).href;
+                    resolve(absoluteUrl);
+                } else {
+                    reject(new Error('Redirect without location'));
+                }
+            } else if (response.statusCode === 200) {
+                // If no redirect, return original URL
+                resolve(shortUrl);
+            } else {
+                reject(new Error(`Failed to resolve: ${response.statusCode}`));
+            }
+        });
+
+        req.on('error', reject);
+        req.on('timeout', () => {
+            req.destroy();
+            reject(new Error('Request timeout'));
+        });
+        req.setTimeout(10000);
+    });
+}
+
 function extractASIN(amazonUrl) {
+    // Skip author/store pages and other non-book links
+    if (/\/stores\/|\/author\/|\/gp\/seller\/|\/s\?k=|ref=sr_ntt/.test(amazonUrl)) {
+        return null;
+    }
+
     // Common patterns for ASIN in Amazon URLs
     const patterns = [
         /\/dp\/([A-Z0-9]{10})/,
         /\/gp\/product\/([A-Z0-9]{10})/,
         /\/product\/([A-Z0-9]{10})/,
-        /amazon\.[^/]+\/([A-Z0-9]{10})\//,
+        /\/e\/([A-Z0-9]{10})/, // Kindle edition
+        /\/ASIN\/([A-Z0-9]{10})/i,
+        /\/[^/]+\/([A-Z0-9]{10})(?:\/|$|\?)/, // Generic pattern: /something/ASIN/
     ];
 
     for (const pattern of patterns) {
         const match = amazonUrl.match(pattern);
         if (match) {
-            return match[1];
+            const asin = match[1];
+            // Validate ASIN format (10 alphanumeric characters)
+            if (/^[A-Z0-9]{10}$/.test(asin)) {
+                return asin;
+            }
         }
     }
 
@@ -126,13 +177,13 @@ function fetchHTML(url) {
     });
 }
 
-function extractBooksFromHTML(htmlContent, episodeUrl) {
+async function extractBooksFromHTML(htmlContent, episodeUrl) {
     // Find all Amazon links (supports amzn.in, amazon.in, amazon.com, a.co, amzn.to)
-    const amznPattern = /https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to)|a\.co)\/[^\s<>"&]+/g;
+    const amznPattern = /https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to|com)|a\.co)\/[^\s<>"&]+/g;
     const amznMatches = htmlContent.match(amznPattern) || [];
 
     // Also look for Google redirect URLs that contain Amazon links
-    const googleRedirectPattern = /https:\/\/www\.google\.com\/url\?q=(https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to)|a\.co)\/[^&]+)/g;
+    const googleRedirectPattern = /https:\/\/www\.google\.com\/url\?q=(https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to|com)|a\.co)\/[^&]+)/g;
     let googleMatches = [];
     let match;
     while ((match = googleRedirectPattern.exec(htmlContent)) !== null) {
@@ -143,46 +194,146 @@ function extractBooksFromHTML(htmlContent, episodeUrl) {
     const allLinks = [...new Set([...amznMatches, ...googleMatches])];
 
     const books = [];
+    const shortLinksMap = new Map(); // Map original short link to resolved URL
 
+    // Separate short links from regular links
     for (const link of allLinks) {
-        const asin = extractASIN(link);
-        if (!asin) {
-            console.log(`⚠️  Could not extract ASIN from: ${link}`);
-            continue;
+        if (isShortLink(link)) {
+            // Store short link for later resolution
+            shortLinksMap.set(link, null);
+        } else {
+            // Try to extract ASIN directly
+            const asin = extractASIN(link);
+            if (asin) {
+                books.push({
+                    asin: asin,
+                    originalLink: link, // Store original for title extraction
+                    amazonLink: link,
+                    title: null // Will be extracted later
+                });
+            }
+        }
+    }
+
+    // Resolve short links
+    if (shortLinksMap.size > 0) {
+        console.log(`🔗 Resolving ${shortLinksMap.size} short link(s)...`);
+        const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+        for (const [shortLink] of shortLinksMap) {
+            try {
+                const resolvedUrl = await resolveShortLink(shortLink);
+                const asin = extractASIN(resolvedUrl);
+                if (asin) {
+                    shortLinksMap.set(shortLink, resolvedUrl);
+                    books.push({
+                        asin: asin,
+                        originalLink: shortLink, // Store original short link for title extraction
+                        amazonLink: resolvedUrl, // Store resolved URL for the actual link
+                        title: null
+                    });
+                    console.log(`   ✅ Resolved: ${shortLink.substring(0, 30)}... -> ASIN ${asin}`);
+                } else {
+                    console.log(`   ⚠️  Resolved but no ASIN: ${shortLink} -> ${resolvedUrl.substring(0, 80)}`);
+                }
+            } catch (error) {
+                console.log(`   ⚠️  Failed to resolve: ${shortLink} - ${error.message}`);
+            }
+
+            // Rate limiting - delay between requests
+            await delay(200);
+        }
+    }
+
+    // Now extract titles for all found books
+    const booksWithTitles = [];
+
+    for (const book of books) {
+        // Try to extract title from HTML context using the original link
+        let title = null;
+
+        // Pattern: find text in href="link">TITLE</a> - try original link first
+        const linkToMatch = book.originalLink || book.amazonLink;
+        const escapedLink = linkToMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+        // Try multiple patterns to find the title
+        // Escape special regex characters in the URL
+        const linkInHtml = linkToMatch.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+        // Try the most common pattern: href="link">TITLE</a>
+        const mainPattern = new RegExp(`<a[^>]*href=["'][^"']*${linkInHtml}[^"']*["'][^>]*>([^<]+?)</a>`, 'i');
+        const mainMatch = htmlContent.match(mainPattern);
+        if (mainMatch && mainMatch[1]) {
+            title = mainMatch[1].trim();
+        } else {
+            // Try with just the short link ID (last part after /d/)
+            const shortId = linkToMatch.split('/').pop();
+            if (shortId) {
+                const escapedId = shortId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const idPattern = new RegExp(`<a[^>]*href=["'][^"']*${escapedId}[^"']*["'][^>]*>([^<]+?)</a>`, 'i');
+                const idMatch = htmlContent.match(idPattern);
+                if (idMatch && idMatch[1]) {
+                    title = idMatch[1].trim();
+                }
+            }
         }
 
-        // Try to extract title from HTML context
-        let title = "Amazon Book Link";
+        if (!title) {
+            // Try to find title by looking for the link and then nearby text
+            const linkIndex = htmlContent.indexOf(linkToMatch);
+            if (linkIndex !== -1) {
+                // Look for text after the link tag
+                const afterLink = htmlContent.substring(linkIndex, linkIndex + 300);
+                const titleAfterMatch = afterLink.match(/>([^<]{10,100})</);
+                if (titleAfterMatch && titleAfterMatch[1]) {
+                    title = titleAfterMatch[1];
+                }
+            }
+        }
 
-        // Pattern: find text in href="link">TITLE</a>
-        const escapedLink = link.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const titlePattern = new RegExp(`<a[^>]*href=["']?[^"']*${escapedLink}[^"']*["']?[^>]*>([^<]+)</a>`, 'i');
-        const titleMatch = htmlContent.match(titlePattern);
-
-        if (titleMatch) {
-            title = titleMatch[1]
+        if (!title) {
+            // If still no title, try to fetch from Amazon (but skip for now to avoid delays)
+            // For now, use a placeholder that will be filtered
+            title = "Amazon Book Link";
+        } else {
+            // Clean up the title
+            title = title
                 .replace(/\s+/g, ' ')
                 .replace(/&nbsp;/g, ' ')
                 .replace(/&amp;/g, '&')
                 .replace(/&quot;/g, '"')
+                .replace(/&#8217;/g, "'")
+                .replace(/&#8211;/g, "-")
+                .replace(/&#8212;/g, "--")
+                .replace(/&[a-z]+;/gi, '') // Remove other HTML entities
                 .trim();
         }
 
         // Clean title
         const cleanedTitle = sanitizeTitle(title);
         if (!cleanedTitle) {
-            console.log(`⚠️  Skipping book with invalid title: ASIN ${asin}`);
+            console.log(`⚠️  Skipping book with invalid title: ASIN ${book.asin}`);
             continue;
         }
 
-        books.push({
-            asin: asin,
+        booksWithTitles.push({
+            asin: book.asin,
             title: cleanedTitle,
-            amazonLink: link
+            amazonLink: book.amazonLink
         });
     }
 
-    return books;
+    // Deduplicate by ASIN
+    const uniqueBooks = [];
+    const seenAsins = new Set();
+    for (const book of booksWithTitles) {
+        if (!seenAsins.has(book.asin)) {
+            seenAsins.add(book.asin);
+            uniqueBooks.push(book);
+        }
+    }
+
+    return uniqueBooks;
 }
 
 async function updateBooksJSON(newBooks, episodeInfo) {
@@ -342,7 +493,7 @@ async function processEpisode(episodeUrl) {
 
         // Extract books from HTML
         console.log('📚 Extracting book links...');
-        const books = extractBooksFromHTML(htmlContent, episodeUrl);
+        const books = await extractBooksFromHTML(htmlContent, episodeUrl);
         console.log(`✅ Found ${books.length} book(s)\n`);
 
         if (books.length === 0) {

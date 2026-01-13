@@ -1932,6 +1932,26 @@
     "originalIndex": 81
   },
   {
+    "id": "B09NYHVLFX",
+    "asin": "B09NYHVLFX",
+    "title": "America against America",
+    "amazonLink": "https://www.amazon.in/dp/B09NYHVLFX?ref=cm_sw_r_ffobk_cp_ud_dp_ZSSVVMHP546JT6JVSBYN&ref_=cm_sw_r_ffobk_cp_ud_dp_ZSSVVMHP546JT6JVSBYN&social_share=cm_sw_r_ffobk_cp_ud_dp_ZSSVVMHP546JT6JVSBYN&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B09NYHVLFX.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B09H7HQQDW",
     "asin": "B09H7HQQDW",
     "title": "Amit Varma&#8217;s favourite shower gel",
@@ -4731,6 +4751,26 @@
     "originalIndex": 204
   },
   {
+    "id": "B07QQTMSKC",
+    "asin": "B07QQTMSKC",
+    "title": "China's New Red Guards",
+    "amazonLink": "https://www.amazon.in/dp/B07QQTMSKC?ref=cm_sw_r_ffobk_cp_ud_dp_AA8QM8WP9NYZWVV39QXC&ref_=cm_sw_r_ffobk_cp_ud_dp_AA8QM8WP9NYZWVV39QXC&social_share=cm_sw_r_ffobk_cp_ud_dp_AA8QM8WP9NYZWVV39QXC&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B07QQTMSKC.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B0949H2MP3",
     "asin": "B0949H2MP3",
     "title": "China&#8217;s Civilian Army: The Making of Wolf Warrior Diplomacy",
@@ -6635,6 +6675,12 @@
         "episodeTitle": "The Forgotten Greatness Of Pv Narasimha Rao",
         "episodeDate": "2022-06-27",
         "episodeUrl": "https://seenunseen.in/episodes/2022/6/27/episode-283-the-forgotten-greatness-of-pv-narasimha-rao/"
+      },
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
       }
     ],
     "cover": "/images/covers/B0064EHZY0.jpg",
@@ -7570,6 +7616,26 @@
     "spineWidth": 49,
     "height": 384,
     "originalIndex": 321
+  },
+  {
+    "id": "B0791KWZZS",
+    "asin": "B0791KWZZS",
+    "title": "End of an Era",
+    "amazonLink": "https://www.amazon.in/dp/B0791KWZZS?ref=cm_sw_r_ffobk_cp_ud_dp_GKVNNJJZJEJWFGFKP8H6&ref_=cm_sw_r_ffobk_cp_ud_dp_GKVNNJJZJEJWFGFKP8H6&social_share=cm_sw_r_ffobk_cp_ud_dp_GKVNNJJZJEJWFGFKP8H6&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B0791KWZZS.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "0143418890",
@@ -18819,6 +18885,26 @@
     "originalIndex": 790
   },
   {
+    "id": "0300254237",
+    "asin": "0300254237",
+    "title": "Prestige, Manipulation, and Coercion",
+    "amazonLink": "https://www.amazon.in/dp/0300254237?ref=cm_sw_r_ffobk_cp_ud_dp_M78BKM3CQJPK3M88MDM0&ref_=cm_sw_r_ffobk_cp_ud_dp_M78BKM3CQJPK3M88MDM0&social_share=cm_sw_r_ffobk_cp_ud_dp_M78BKM3CQJPK3M88MDM0&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/0300254237.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B09JBMZTT2",
     "asin": "B09JBMZTT2",
     "title": "Price of the Modi Years",
@@ -19629,6 +19715,26 @@
     "originalIndex": 822
   },
   {
+    "id": "B092W923R7",
+    "asin": "B092W923R7",
+    "title": "Red Roulette",
+    "amazonLink": "https://www.amazon.in/dp/B092W923R7?ref=cm_sw_r_ffobk_cp_ud_dp_N74TPG3BR8S2ZT8GFWC1&ref_=cm_sw_r_ffobk_cp_ud_dp_N74TPG3BR8S2ZT8GFWC1&social_share=cm_sw_r_ffobk_cp_ud_dp_N74TPG3BR8S2ZT8GFWC1&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B092W923R7.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B09Q3CBBCK",
     "asin": "B09Q3CBBCK",
     "title": "Red, White &amp; Royal Blue",
@@ -19882,6 +19988,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 833
+  },
+  {
+    "id": "B095KF1L3X",
+    "asin": "B095KF1L3X",
+    "title": "Rethinking Chinese Politics",
+    "amazonLink": "https://www.amazon.in/dp/B095KF1L3X?ref=cm_sw_r_ffobk_cp_ud_dp_T95EWCDH35KHE22DMBEF&ref_=cm_sw_r_ffobk_cp_ud_dp_T95EWCDH35KHE22DMBEF&social_share=cm_sw_r_ffobk_cp_ud_dp_T95EWCDH35KHE22DMBEF&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B095KF1L3X.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B07D184PRQ",
@@ -26733,6 +26859,26 @@
     "originalIndex": 1124
   },
   {
+    "id": "0233985638",
+    "asin": "0233985638",
+    "title": "The History of Indian Cricket",
+    "amazonLink": "https://www.amazon.in/dp/0233985638?ref=cm_sw_r_ffobk_cp_ud_dp_3Q9E8EBQQNHCZRAMWXKR&ref_=cm_sw_r_ffobk_cp_ud_dp_3Q9E8EBQQNHCZRAMWXKR&social_share=cm_sw_r_ffobk_cp_ud_dp_3Q9E8EBQQNHCZRAMWXKR&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/0233985638.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "1509808310",
     "asin": "1509808310",
     "title": "The Hitchhiker&#8217;s Guide to the Galaxy",
@@ -27293,6 +27439,12 @@
         "episodeTitle": "The China Dude Is In The House",
         "episodeDate": "2021-06-27",
         "episodeUrl": "https://seenunseen.in/episodes/2021/6/27/episode-231-the-china-dude-is-in-the-house/"
+      },
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
       }
     ],
     "cover": "/images/covers/B08LCWJH55.jpg",
@@ -27838,6 +27990,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 1175
+  },
+  {
+    "id": "B097S3RBQP",
+    "asin": "B097S3RBQP",
+    "title": "The Long Game",
+    "amazonLink": "https://www.amazon.in/dp/B097S3RBQP?ref=cm_sw_r_ffobk_cp_ud_dp_WCDBNFHYH2T4EHRXJVZ1&ref_=cm_sw_r_ffobk_cp_ud_dp_WCDBNFHYH2T4EHRXJVZ1&social_share=cm_sw_r_ffobk_cp_ud_dp_WCDBNFHYH2T4EHRXJVZ1&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B097S3RBQP.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B004ASOVWQ",
@@ -29533,6 +29705,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 1242
+  },
+  {
+    "id": "1503634752",
+    "asin": "1503634752",
+    "title": "The Party's Interests Come First",
+    "amazonLink": "https://www.amazon.in/dp/1503634752?ref=cm_sw_r_ffobk_cp_ud_dp_P4VCDQAEP5JT35M6VNA6&ref_=cm_sw_r_ffobk_cp_ud_dp_P4VCDQAEP5JT35M6VNA6&social_share=cm_sw_r_ffobk_cp_ud_dp_P4VCDQAEP5JT35M6VNA6&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/1503634752.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B00CXLKFJ0",
@@ -31387,6 +31579,26 @@
     "spineWidth": 52,
     "height": 384,
     "originalIndex": 1320
+  },
+  {
+    "id": "B07BH34X3S",
+    "asin": "B07BH34X3S",
+    "title": "The Third Revolution",
+    "amazonLink": "https://www.amazon.in/dp/B07BH34X3S?ref=cm_sw_r_ffobk_cp_ud_dp_8MPNGJKEX8SYKHG6VC2S&ref_=cm_sw_r_ffobk_cp_ud_dp_8MPNGJKEX8SYKHG6VC2S&social_share=cm_sw_r_ffobk_cp_ud_dp_8MPNGJKEX8SYKHG6VC2S&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
+      }
+    ],
+    "cover": "/images/covers/B07BH34X3S.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B00BSBX9TE",
@@ -34241,6 +34453,12 @@
         "episodeTitle": "The China Dude Is In The House",
         "episodeDate": "2021-06-27",
         "episodeUrl": "https://seenunseen.in/episodes/2021/6/27/episode-231-the-china-dude-is-in-the-house/"
+      },
+      {
+        "episodeNum": 435,
+        "episodeTitle": "A Primer On China",
+        "episodeDate": "2026-01-12",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/12/episode-435-a-primer-on-china/"
       }
     ],
     "cover": "/images/covers/B00CBFPRNC.jpg",
