@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo } from 'react'
+import Link from 'next/link'
 import StackView from '@/components/StackView'
 import BookModal from '@/components/BookModal'
 import { useBookStatus, type BookStatus } from '@/hooks/useBookStatus'
@@ -128,7 +129,15 @@ export default function Home() {
       <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
         <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 py-4">
-            <h1 className="text-2xl font-bold text-gray-900">SeenUnseen Bookshelf</h1>
+            <div className="flex items-center justify-between">
+              <h1 className="text-2xl font-bold text-gray-900">SeenUnseen Bookshelf</h1>
+              <Link
+                href="/about"
+                className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+              >
+                About
+              </Link>
+            </div>
           </div>
         </header>
         <div className="flex items-center justify-center min-h-[calc(100vh-80px)] px-4">
@@ -170,11 +179,19 @@ export default function Home() {
     <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
       <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 py-4">
-          <div>
-            <h1 className="text-2xl font-bold text-gray-900">SeenUnseen Bookshelf</h1>
-            <p className="text-sm text-gray-600 mt-1">
-              {books.length} books recommended on the podcast
-            </p>
+          <div className="flex items-center justify-between">
+            <div>
+              <h1 className="text-2xl font-bold text-gray-900">SeenUnseen Bookshelf</h1>
+              <p className="text-sm text-gray-600 mt-1">
+                {books.length} books recommended on the podcast
+              </p>
+            </div>
+            <Link
+              href="/about"
+              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+            >
+              About
+            </Link>
           </div>
         </div>
       </header>
