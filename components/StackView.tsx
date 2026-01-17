@@ -3,7 +3,8 @@
 import { useState, useMemo, useEffect, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
-import type { Book } from '@/app/page'
+import type { Book } from '@/types/book'
+import { useBookStatus } from '@/hooks/useBookStatus'
 import StatusBadge from './StatusBadge'
 
 interface StackViewProps {
@@ -17,6 +18,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
     const [searchQuery, setSearchQuery] = useState('')
     const [debouncedSearchQuery, setDebouncedSearchQuery] = useState('')
     const [sortBy, setSortBy] = useState<SortOption>('episodes-desc')
+    const { statuses } = useBookStatus() // Call once at top level
 
     // Debounce search input (300ms delay)
     useEffect(() => {
@@ -133,7 +135,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                                             quality={85}
                                         />
                                         <div className="absolute top-2 right-2">
-                                            <StatusBadge bookId={book.id} />
+                                            <StatusBadge bookId={book.id} status={statuses[book.id] || null} />
                                         </div>
                                     </div>
                                 ) : (
@@ -142,7 +144,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                                         style={{ backgroundColor: book.backgroundColor }}
                                     >
                                         <div className="absolute top-2 right-2">
-                                            <StatusBadge bookId={book.id} />
+                                            <StatusBadge bookId={book.id} status={statuses[book.id] || null} />
                                         </div>
                                         <p
                                             className="text-sm font-medium text-center"
@@ -165,7 +167,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                                             </p>
                                         )}
                                         <div className="sm:hidden">
-                                            <StatusBadge bookId={book.id} />
+                                            <StatusBadge bookId={book.id} status={statuses[book.id] || null} />
                                         </div>
                                     </div>
                                 </div>

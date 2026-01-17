@@ -2,9 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const csv = require('csv-parser');
 
-// Configuration
-const UNIQUE_CSV = path.join(__dirname, '../seenunseen_books_20251230_090116_unique.csv');
-const EXPANDED_CSV = path.join(__dirname, '../seenunseen_books_20251230_090116_expanded.csv');
+// Configuration - Allow override via environment variables or command line args
+const UNIQUE_CSV = process.env.UNIQUE_CSV ||
+    process.argv[2] ||
+    path.join(__dirname, '../seenunseen_books_20251230_090116_unique.csv');
+const EXPANDED_CSV = process.env.EXPANDED_CSV ||
+    process.argv[3] ||
+    path.join(__dirname, '../seenunseen_books_20251230_090116_expanded.csv');
 const OUTPUT_JSON = path.join(__dirname, '../public/data/books.json');
 
 async function parseCSV(filePath) {
@@ -58,12 +62,40 @@ function sanitizeTitle(title) {
 async function processBooksData() {
     console.log('📚 Processing books data...\n');
 
+    // Check if CSV files exist
+    if (!fs.existsSync(UNIQUE_CSV)) {
+        console.error(`❌ Error: CSV file not found: ${UNIQUE_CSV}\n`);
+        console.error('Please provide the path to the unique books CSV file.\n');
+        console.error('Usage options:');
+        console.error('  1. Set UNIQUE_CSV and EXPANDED_CSV environment variables:');
+        console.error('     UNIQUE_CSV=./path/to/unique.csv EXPANDED_CSV=./path/to/expanded.csv npm run process-data');
+        console.error('  2. Pass CSV paths as command line arguments:');
+        console.error('     node scripts/process_books_data.js ./path/to/unique.csv ./path/to/expanded.csv');
+        console.error('  3. Update the CSV file paths in scripts/process_books_data.js\n');
+
+        // Check if books.json already exists
+        if (fs.existsSync(OUTPUT_JSON)) {
+            const stats = fs.statSync(OUTPUT_JSON);
+            const sizeMB = (stats.size / 1024 / 1024).toFixed(2);
+            console.log(`ℹ️  Note: books.json already exists (${sizeMB}MB)`);
+            console.log('   If you want to regenerate it, you need to provide the CSV files.\n');
+        }
+
+        process.exit(1);
+    }
+
+    if (!fs.existsSync(EXPANDED_CSV)) {
+        console.error(`❌ Error: CSV file not found: ${EXPANDED_CSV}\n`);
+        console.error('Please provide the path to the expanded books CSV file.\n');
+        process.exit(1);
+    }
+
     // Read both CSV files
-    console.log('Reading unique books CSV...');
+    console.log(`Reading unique books CSV: ${path.basename(UNIQUE_CSV)}`);
     const uniqueBooks = await parseCSV(UNIQUE_CSV);
     console.log(`Found ${uniqueBooks.length} unique books\n`);
 
-    console.log('Reading expanded books CSV...');
+    console.log(`Reading expanded books CSV: ${path.basename(EXPANDED_CSV)}`);
     const expandedBooks = await parseCSV(EXPANDED_CSV);
     console.log(`Found ${expandedBooks.length} book-episode entries\n`);
 
@@ -136,8 +168,14 @@ async function processBooksData() {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    // Write JSON file
-    fs.writeFileSync(OUTPUT_JSON, JSON.stringify(processedBooks, null, 2));
+    // Write JSON file (minified in production, pretty-printed in development)
+    const isProduction = process.env.NODE_ENV === 'production'
+    fs.writeFileSync(
+        OUTPUT_JSON,
+        isProduction
+            ? JSON.stringify(processedBooks)  // Minified
+            : JSON.stringify(processedBooks, null, 2)  // Pretty for dev
+    );
 
     console.log(`\n✅ Processed ${processedBooks.length} books`);
     console.log(`📄 Output saved to: ${OUTPUT_JSON}\n`);

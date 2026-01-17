@@ -1,9 +1,10 @@
 'use client'
 
-import { useBookStatus, type BookStatus } from '@/hooks/useBookStatus'
+import type { BookStatus } from '@/hooks/useBookStatus'
 
 interface StatusBadgeProps {
     bookId: string
+    status: BookStatus  // Pass as prop instead
     className?: string
 }
 
@@ -25,9 +26,8 @@ const statusConfig: Record<NonNullable<BookStatus>, { label: string; color: stri
     },
 }
 
-export default function StatusBadge({ bookId, className = '' }: StatusBadgeProps) {
-    const { getStatus } = useBookStatus()
-    const status = getStatus(bookId)
+export default function StatusBadge({ bookId, status, className = '' }: StatusBadgeProps) {
+    // No longer calls useBookStatus hook
 
     if (!status) return null
 

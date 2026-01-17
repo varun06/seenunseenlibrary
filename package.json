@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "create-dirs": "node scripts/create_directories.js",
-    "process-data": "node scripts/create_directories.js && node scripts/process_books_data.js",
     "fetch-covers": "node scripts/create_directories.js && node scripts/fetch_covers.js",
     "extract-colors": "node scripts/extract_colors.js",
     "add-episode": "node scripts/add_episode_books.js",
@@ -16,7 +15,8 @@
     "docker:build": "docker-compose build",
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
-    "docker:logs": "docker-compose logs -f"
+    "docker:logs": "docker-compose logs -f",
+    "_process-data": "node scripts/create_directories.js && node scripts/process_books_data.js"
   },
   "dependencies": {
     "framer-motion": "^10.16.0",

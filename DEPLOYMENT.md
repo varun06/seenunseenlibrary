@@ -15,14 +15,16 @@ This guide explains how to deploy the SeenUnseen Bookshelf on your local network
    # Create necessary directories
    npm run create-dirs
    
-   # Process CSV files and generate books.json
-   npm run process-data
+   # If you need to regenerate books.json from CSV files (optional):
+   # UNIQUE_CSV=./path/to/unique.csv EXPANDED_CSV=./path/to/expanded.csv NODE_ENV=production npm run _process-data
    
    # Optional: fetch book covers (takes 15-20 minutes for 1400+ books)
    npm run fetch-covers
    ```
    
-   **Note**: The `public/data` and `public/images` directories must exist on your host machine before running Docker. If they don't exist, Docker will create empty directories, but the app won't work without `books.json`.
+   **Note**: The `public/data` directory must contain `books.json` on your host machine before running Docker. If `books.json` already exists, you don't need to run `_process-data`.
+   
+   **Performance Tip**: If regenerating JSON, use `NODE_ENV=production` to minify the file (1.1MB → ~650-700KB), improving load times. This is recommended for production deployments.
 
 2. **Build and start the container**:
    ```bash

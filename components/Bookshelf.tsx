@@ -4,7 +4,7 @@ import { useRef, useEffect, useState, useMemo } from 'react'
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import { useBookColors } from './ColorExtractor'
-import type { Book } from '@/app/page'
+import type { Book } from '@/types/book'
 
 interface BookshelfProps {
   books: Book[]
@@ -97,7 +97,7 @@ export default function Bookshelf({ books, onBookClick }: BookshelfProps) {
             display: none;
           }
         `}</style>
-        
+
         <div className="flex items-end justify-center h-[450px] gap-3 px-8 w-full" style={{ perspective: '1000px' }}>
           {booksWithCovers.length === 0 ? (
             <div className="text-center text-gray-500">
@@ -133,21 +133,21 @@ interface BookSpineProps {
 function BookSpine({ book, index, scrollY, containerRef, onClick }: BookSpineProps) {
   const ref = useRef<HTMLDivElement>(null)
   const colors = useBookColors(book)
-  
+
   // Calculate tilt based on scroll position and book position
   const tilt = useTransform(scrollY, () => {
     if (!ref.current || !containerRef.current) return 0
-    
+
     const container = containerRef.current
     const bookRect = ref.current.getBoundingClientRect()
     const containerRect = container.getBoundingClientRect()
-    
+
     const bookCenter = bookRect.left + bookRect.width / 2
     const containerCenter = containerRect.left + containerRect.width / 2
-    
+
     // Calculate distance from center (normalized to -1 to 1)
     const distance = (bookCenter - containerCenter) / (containerRect.width / 2)
-    
+
     // Tilt based on distance (max 12 degrees)
     return Math.max(-12, Math.min(12, distance * 12))
   })
@@ -193,7 +193,7 @@ function BookSpine({ book, index, scrollY, containerRef, onClick }: BookSpinePro
               />
             </div>
             {/* Subtle overlay for text readability if needed */}
-            <div 
+            <div
               className="absolute inset-0 pointer-events-none"
               style={{
                 background: `linear-gradient(to right, 
@@ -205,9 +205,9 @@ function BookSpine({ book, index, scrollY, containerRef, onClick }: BookSpinePro
             />
             {/* Title Text - overlay on cover */}
             <div className="relative z-10 flex flex-col items-center justify-center h-full px-1">
-              <div 
+              <div
                 className="font-bold text-[10px] leading-tight text-center text-white"
-                style={{ 
+                style={{
                   writingMode: 'vertical-rl',
                   textOrientation: 'upright',
                   maxWidth: `${book.height - 40}px`,
@@ -220,7 +220,7 @@ function BookSpine({ book, index, scrollY, containerRef, onClick }: BookSpinePro
                 {book.title}
               </div>
               {book.episodeCount > 1 && (
-                <div 
+                <div
                   className="text-[9px] mt-1.5 opacity-90 text-center text-white"
                   style={{
                     writingMode: 'vertical-rl',
@@ -243,9 +243,9 @@ function BookSpine({ book, index, scrollY, containerRef, onClick }: BookSpinePro
             }}
           >
             <div className="flex flex-col items-center justify-center h-full">
-              <div 
+              <div
                 className="font-medium text-xs leading-tight text-center"
-                style={{ 
+                style={{
                   writingMode: 'vertical-rl',
                   textOrientation: 'upright',
                   maxWidth: `${book.height - 60}px`,
@@ -256,7 +256,7 @@ function BookSpine({ book, index, scrollY, containerRef, onClick }: BookSpinePro
                 {book.title}
               </div>
               {book.episodeCount > 1 && (
-                <div 
+                <div
                   className="text-[10px] mt-2 opacity-75 text-center"
                   style={{
                     writingMode: 'vertical-rl',

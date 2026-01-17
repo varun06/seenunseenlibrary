@@ -13,7 +13,8 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-# Build the Next.js application
+# Build the Next.js application with production optimizations
+ENV NODE_ENV production
 ENV NEXT_TELEMETRY_DISABLED 1
 RUN npm run build
 

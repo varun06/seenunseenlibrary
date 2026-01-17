@@ -21,17 +21,25 @@ Inspired by [balajmarius.com's bookshelf](https://balajmarius.com/writings/vibe-
 npm install
 ```
 
-### 2. Process Data
+### 2. Data Requirements
 
-First, process the CSV files to generate JSON:
+The app requires `public/data/books.json` to function. If this file already exists (which is typical), you can skip to step 3.
 
+**If you need to regenerate `books.json` from CSV files** (optional):
 ```bash
-npm run process-data
+# Option 1: Set CSV paths as environment variables
+UNIQUE_CSV=./path/to/unique.csv EXPANDED_CSV=./path/to/expanded.csv npm run _process-data
+
+# Option 2: Pass CSV paths as arguments
+node scripts/process_books_data.js ./path/to/unique.csv ./path/to/expanded.csv
 ```
 
 This will:
 - Parse the CSV files
 - Generate a JSON structure with book data
+- Save to `public/data/books.json`
+
+**Note**: CSV processing is only needed if you need to regenerate the data. The app works directly with `books.json`.
 
 ### 3. Fetch Book Covers
 
@@ -82,9 +90,11 @@ seenunseen/
 │   ├── StackView.tsx     # Stack view component
 │   └── BookModal.tsx     # Book detail modal
 ├── scripts/               # Data processing scripts
-│   ├── process_books_data.js
-│   ├── fetch_covers.js
-│   └── extract_colors.js
+│   ├── process_books_data.js  # CSV to JSON (optional, only for regeneration)
+│   ├── fetch_covers.js        # Fetch book cover images
+│   ├── extract_colors.js      # Extract colors from covers
+│   ├── add_episode_books.js   # Add episodes to existing books
+│   └── deduplicate_books.js   # Remove duplicate books
 ├── public/
 │   ├── data/
 │   │   └── books.json    # Generated book data

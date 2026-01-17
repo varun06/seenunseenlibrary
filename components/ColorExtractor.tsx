@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import type { Book } from '@/app/page'
+import type { Book } from '@/types/book'
 
 // Extract dominant color from an image
 function getDominantColor(imageData: ImageData) {

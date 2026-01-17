@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
-import type { Book } from '@/app/page'
+import type { Book } from '@/types/book'
 import BookStatusButton from './BookStatusButton'
 
 interface BookModalProps {
