@@ -1142,6 +1142,12 @@
         "episodeTitle": "Amitava Kumar Finds The Breath Of Life",
         "episodeDate": "2022-02-21",
         "episodeUrl": "https://seenunseen.in/episodes/2022/2/21/episode-265-amitava-kumar-finds-the-breath-of-life/"
+      },
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
       }
     ],
     "cover": "/images/covers/B08NCMHBH1.jpg",
@@ -1477,6 +1483,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 61
+  },
+  {
+    "id": "B0FJNYMHX2",
+    "asin": "B0FJNYMHX2",
+    "title": "After the Spike",
+    "amazonLink": "https://www.amazon.in/dp/B0FJNYMHX2?ref=cm_sw_r_ffobk_cp_ud_dp_GJ78JXVEF3DKTRSQ5JAA&ref_=cm_sw_r_ffobk_cp_ud_dp_GJ78JXVEF3DKTRSQ5JAA&social_share=cm_sw_r_ffobk_cp_ud_dp_GJ78JXVEF3DKTRSQ5JAA&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/B0FJNYMHX2.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B00F943F18",
@@ -9042,6 +9068,26 @@
     "originalIndex": 400
   },
   {
+    "id": "B00MTSRD1U",
+    "asin": "B00MTSRD1U",
+    "title": "Funny Boy",
+    "amazonLink": "https://www.amazon.in/dp/B00MTSRD1U?ref=cm_sw_r_ffobk_cp_ud_dp_6SB583JQDER0MX390D1Z&ref_=cm_sw_r_ffobk_cp_ud_dp_6SB583JQDER0MX390D1Z&social_share=cm_sw_r_ffobk_cp_ud_dp_6SB583JQDER0MX390D1Z&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/B00MTSRD1U.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B09KS2N9W9",
     "asin": "B09KS2N9W9",
     "title": "Furrows in a Field",
@@ -14454,6 +14500,26 @@
     "originalIndex": 629
   },
   {
+    "id": "0143423037",
+    "asin": "0143423037",
+    "title": "Many Roads to Paradise",
+    "amazonLink": "https://www.amazon.in/dp/0143423037?ref=cm_sw_r_ffobk_cp_ud_dp_4GHPAJXEK20VZVGDG3ZP&ref_=cm_sw_r_ffobk_cp_ud_dp_4GHPAJXEK20VZVGDG3ZP&social_share=cm_sw_r_ffobk_cp_ud_dp_4GHPAJXEK20VZVGDG3ZP&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/0143423037.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B07FN51QDD",
     "asin": "B07FN51QDD",
     "title": "Marathi",
@@ -18045,6 +18111,26 @@
     "originalIndex": 795
   },
   {
+    "id": "B0DGG2RTWV",
+    "asin": "B0DGG2RTWV",
+    "title": "Pride and Prejudice",
+    "amazonLink": "https://www.amazon.in/dp/B0DGG2RTWV?ref=cm_sw_r_ffobk_cp_ud_dp_WG7VW6RRQF19Q856NF67&ref_=cm_sw_r_ffobk_cp_ud_dp_WG7VW6RRQF19Q856NF67&social_share=cm_sw_r_ffobk_cp_ud_dp_WG7VW6RRQF19Q856NF67&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/B0DGG2RTWV.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B07VYR1Y7F",
     "asin": "B07VYR1Y7F",
     "title": "Pride and Prejudice (DF Jane Austen Collection Book 1)",
@@ -18472,6 +18558,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 812
+  },
+  {
+    "id": "B0FMDR5K22",
+    "asin": "B0FMDR5K22",
+    "title": "Railsong",
+    "amazonLink": "https://www.amazon.in/dp/B0FMDR5K22?ref=cm_sw_r_ffobk_cp_ud_dp_YBY1T0W596JMPPD11BRH&ref_=cm_sw_r_ffobk_cp_ud_dp_YBY1T0W596JMPPD11BRH&social_share=cm_sw_r_ffobk_cp_ud_dp_YBY1T0W596JMPPD11BRH&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/B0FMDR5K22.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "9353490405",
@@ -33564,6 +33670,26 @@
     "originalIndex": 1464
   },
   {
+    "id": "B09FJPQPJ1",
+    "asin": "B09FJPQPJ1",
+    "title": "When Memory Dies",
+    "amazonLink": "https://www.amazon.in/dp/B09FJPQPJ1?ref=cm_sw_r_ffobk_cp_ud_dp_98446E83NBR7XX6XDZKZ&ref_=cm_sw_r_ffobk_cp_ud_dp_98446E83NBR7XX6XDZKZ&social_share=cm_sw_r_ffobk_cp_ud_dp_98446E83NBR7XX6XDZKZ&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/B09FJPQPJ1.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B06XXYWRMV",
     "asin": "B06XXYWRMV",
     "title": "When the Time is Right",
@@ -33793,6 +33919,26 @@
     "spineWidth": 64,
     "height": 384,
     "originalIndex": 1474
+  },
+  {
+    "id": "B0BM4YL9TQ",
+    "asin": "B0BM4YL9TQ",
+    "title": "Whole Numbers And Half Truths",
+    "amazonLink": "https://www.amazon.in/dp/B0BM4YL9TQ?ref_=cm_sw_r_cp_ud_dp_BYXD4Q5NVQJW8KHE11S9",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 436,
+        "episodeTitle": "Rukmini And The Numbers",
+        "episodeDate": "2026-01-26",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/1/26/episode-436-rukmini-and-the-numbers/"
+      }
+    ],
+    "cover": "/images/covers/B0BM4YL9TQ.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B09JBR5B5R",
