@@ -110,7 +110,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                 </div>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-stretch">
                 <AnimatePresence>
                     {filteredAndSortedBooks.map((book, index) => (
                         <motion.div
@@ -119,12 +119,12 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, scale: 0.95 }}
                             transition={{ duration: 0.2 }}
-                            className="cursor-pointer"
+                            className="cursor-pointer h-full flex flex-col"
                             onClick={() => handleBookClick(book)}
                         >
-                            <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden relative">
+                            <div className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden relative h-full flex flex-col">
                                 {book.cover ? (
-                                    <div className="relative w-full aspect-[2/3] bg-gray-200 overflow-hidden">
+                                    <div className="relative w-full aspect-[2/3] bg-gray-200 overflow-hidden flex-shrink-0 min-h-0">
                                         <Image
                                             src={book.cover}
                                             alt={book.title}
@@ -133,6 +133,7 @@ export default function StackView({ books, onBookClick }: StackViewProps) {
                                             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
                                             loading={index < 20 ? 'eager' : 'lazy'}
                                             quality={85}
+                                            style={{ objectFit: 'cover', objectPosition: 'center' }}
                                         />
                                         <div className="absolute top-2 right-2">
                                             <StatusBadge bookId={book.id} status={statuses[book.id] || null} />
