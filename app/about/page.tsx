@@ -2,19 +2,16 @@ import Link from 'next/link'
 
 export default function About() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+    <main className="min-h-screen bg-background">
+      <header className="sticky top-0 z-10 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            <div>
-              <Link href="/" className="text-2xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
-                SeenUnseen Bookshelf
-              </Link>
-              <p className="text-sm text-gray-600 mt-1">About</p>
-            </div>
+            <Link href="/" className="text-lg font-semibold text-accent hover:text-accent/90 transition-colors">
+              SeenUnseen Books
+            </Link>
             <Link
               href="/"
-              className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-colors"
+              className="text-sm font-medium text-gray-600 hover:text-accent transition-colors"
             >
               ← Back to Bookshelf
             </Link>
@@ -22,7 +19,7 @@ export default function About() {
         </div>
       </header>
 
-      <div className="max-w-4xl mx-auto px-4 py-12">
+      <div className="max-w-4xl mx-auto px-4 py-10 sm:py-12">
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-6">About This Bookshelf</h1>
 
@@ -33,7 +30,7 @@ export default function About() {
                 href="https://seenunseen.in"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-900 font-semibold hover:text-gray-700 underline"
+                className="text-accent font-semibold hover:underline"
               >
                 SeenUnseen podcast
               </a>
@@ -46,7 +43,7 @@ export default function About() {
               the context and discussions that led to the recommendation.
             </p>
 
-            <div className="bg-gray-50 rounded-lg p-6 mb-6 border-l-4 border-gray-900">
+            <div className="bg-gray-50 rounded-lg p-6 mb-6 border-l-4 border-accent">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">About SeenUnseen</h2>
               <p className="text-gray-700 leading-relaxed">
                 SeenUnseen is a podcast that explores books, ideas, and conversations. You can listen to episodes
@@ -55,7 +52,7 @@ export default function About() {
                   href="https://seenunseen.in"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-900 font-semibold hover:text-gray-700 underline"
+                  className="text-accent font-semibold hover:underline"
                 >
                   seenunseen.in
                 </a>

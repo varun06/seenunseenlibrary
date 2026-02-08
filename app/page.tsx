@@ -5,10 +5,10 @@ import type { Book } from '@/types/book'
 // Error handling component for server-side errors
 function ErrorDisplay({ error }: { error: Error }) {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100">
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-sm border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-gray-900">SeenUnseen Bookshelf</h1>
+    <main className="min-h-screen bg-background">
+      <header className="sticky top-0 z-10 bg-white/90 backdrop-blur-sm border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 py-3">
+          <h1 className="text-lg font-semibold text-accent">SeenUnseen Books</h1>
         </div>
       </header>
       <div className="flex items-center justify-center min-h-[calc(100vh-80px)] px-4">
