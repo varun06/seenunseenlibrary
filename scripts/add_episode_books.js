@@ -72,7 +72,7 @@ function extractEpisodeInfo(episodeUrl) {
 }
 
 function isShortLink(url) {
-    return /amzn\.(in|to|com)\/d\/[A-Za-z0-9]+/.test(url);
+    return /amzn\.(in|to|com|eu)\/d\/[A-Za-z0-9]+/.test(url);
 }
 
 function resolveShortLink(shortUrl) {
@@ -179,12 +179,12 @@ function fetchHTML(url) {
 }
 
 async function extractBooksFromHTML(htmlContent, episodeUrl) {
-    // Find all Amazon links (supports amzn.in, amazon.in, amazon.com, a.co, amzn.to)
-    const amznPattern = /https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to|com)|a\.co)\/[^\s<>"&]+/g;
+    // Find all Amazon links (supports amzn.in, amzn.eu, amazon.in, amazon.com, a.co, amzn.to)
+    const amznPattern = /https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to|com|eu)|a\.co)\/[^\s<>"&]+/g;
     const amznMatches = htmlContent.match(amznPattern) || [];
 
     // Also look for Google redirect URLs that contain Amazon links
-    const googleRedirectPattern = /https:\/\/www\.google\.com\/url\?q=(https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to|com)|a\.co)\/[^&]+)/g;
+    const googleRedirectPattern = /https:\/\/www\.google\.com\/url\?q=(https?:\/\/(?:(?:www\.)?amazon\.(?:in|com)|amzn\.(?:in|to|com|eu)|a\.co)\/[^&]+)/g;
     let googleMatches = [];
     let match;
     while ((match = googleRedirectPattern.exec(htmlContent)) !== null) {
