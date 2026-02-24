@@ -24237,6 +24237,26 @@
     "originalIndex": 1003
   },
   {
+    "id": "B0BN2P475V",
+    "asin": "B0BN2P475V",
+    "title": "The Covenant of Water",
+    "amazonLink": "https://www.amazon.in/dp/B0BN2P475V?ref=cm_sw_r_ffobk_cp_ud_dp_7R4W65FGBJYY8HB02MYE&ref_=cm_sw_r_ffobk_cp_ud_dp_7R4W65FGBJYY8HB02MYE&social_share=cm_sw_r_ffobk_cp_ud_dp_7R4W65FGBJYY8HB02MYE&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 438,
+        "episodeTitle": "V Ravichandar Is Heading North By Northwest",
+        "episodeDate": "2026-02-23",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/2/23/episode-438-v-ravichandar-is-heading-north-by-northwest/"
+      }
+    ],
+    "cover": "/images/covers/B0BN2P475V.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B000JVOJHK",
     "asin": "B000JVOJHK",
     "title": "The Crisis of Political Imagination",
@@ -32923,19 +32943,25 @@
     "asin": "B0CLRSQK36",
     "title": "Unboxing Bengaluru",
     "amazonLink": "https://www.amazon.in/dp/B0CLRSQK36?ref_=cm_sw_r_cp_ud_dp_0QZ137BKX665TT910HC7",
-    "episodeCount": 1,
+    "episodeCount": 2,
     "episodes": [
       {
         "episodeNum": 437,
         "episodeTitle": "Gautam John Is Figuring It Out",
         "episodeDate": "2026-02-09",
         "episodeUrl": "https://seenunseen.in/episodes/2026/2/9/episode-437-gautam-john-is-figuring-it-out/"
+      },
+      {
+        "episodeNum": 438,
+        "episodeTitle": "V Ravichandar Is Heading North By Northwest",
+        "episodeDate": "2026-02-23",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/2/23/episode-438-v-ravichandar-is-heading-north-by-northwest/"
       }
     ],
     "cover": "/images/covers/B0CLRSQK36.jpg",
     "backgroundColor": "#f0f0f0",
     "textColor": "#1f1f2e",
-    "spineWidth": 43,
+    "spineWidth": 46,
     "height": 384,
     "originalIndex": 1366
   },
