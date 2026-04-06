@@ -1,6 +1,11 @@
 import { getBooks } from '@/lib/books'
 import BooksClient from './BooksClient'
-import type { Book } from '@/types/book'
+import type { Book, Episode } from '@/types/book'
+
+// Helper to create a consistent key for an episode
+function episodeKey(ep: Episode) {
+  return ep.episodeUrl || `${ep.episodeNum}-${ep.episodeTitle}`
+}
 
 // Error handling component for server-side errors
 function ErrorDisplay({ error }: { error: Error }) {
@@ -44,12 +49,45 @@ export default async function Home() {
   try {
     const books = await getBooks()
 
-    // Validate that we got books
     if (!Array.isArray(books) || books.length === 0) {
       return <ErrorDisplay error={new Error('No books found in data file')} />
     }
 
-    return <BooksClient initialBooks={books} />
+    // --- Server-side data processing ---
+
+    // Highlights: top 10 most mentioned (by episode count)
+    const top10MostMentioned = [...books]
+      .sort((a, b) => b.episodeCount - a.episodeCount)
+      .slice(0, 10)
+
+    // Highlights: latest episode and books from that episode
+    let latestEpisode: Episode | null = null
+    books.forEach((book) => {
+      book.episodes?.forEach((ep) => {
+        if (!latestEpisode || ep.episodeNum > latestEpisode.episodeNum) {
+          latestEpisode = ep
+        }
+      })
+    })
+
+    let latestEpisodeBooks: Book[] = []
+    if (latestEpisode) {
+      const key = episodeKey(latestEpisode)
+      latestEpisodeBooks = books.filter((book) =>
+        book.episodes?.some((ep) => episodeKey(ep) === key)
+      )
+    }
+    
+    // --- End server-side data processing ---
+
+    return (
+      <BooksClient
+        initialBooks={books}
+        top10MostMentioned={top10MostMentioned}
+        latestEpisode={latestEpisode}
+        latestEpisodeBooks={latestEpisodeBooks}
+      />
+    )
   } catch (error) {
     const errorMessage = error instanceof Error ? error : new Error('Unknown error occurred')
     console.error('Error loading books:', errorMessage)

@@ -33,15 +33,19 @@ const BookModal = dynamic(() => import('@/components/BookModal'), {
 type FilterTab = 'all' | 'read' | 'want_to_read' | 'currently_reading'
 type ViewMode = 'highlights' | 'all'
 
-function episodeKey(ep: Episode) {
-  return ep.episodeUrl || `${ep.episodeNum}-${ep.episodeTitle}`
-}
-
 interface BooksClientProps {
   initialBooks: Book[]
+  top10MostMentioned: Book[]
+  latestEpisode: Episode | null
+  latestEpisodeBooks: Book[]
 }
 
-export default function BooksClient({ initialBooks }: BooksClientProps) {
+export default function BooksClient({
+  initialBooks,
+  top10MostMentioned,
+  latestEpisode,
+  latestEpisodeBooks,
+}: BooksClientProps) {
   const [selectedBook, setSelectedBook] = useState<Book | null>(null)
   const [activeFilter, setActiveFilter] = useState<FilterTab>('all')
   const [viewMode, setViewMode] = useState<ViewMode>('highlights')
@@ -56,41 +60,8 @@ export default function BooksClient({ initialBooks }: BooksClientProps) {
         ? ''
         : cyclingSearchValue
 
-  // Single deduplication pass (safety check)
-  const books = useMemo(() => {
-    const seen = new Set<string>()
-    return initialBooks.filter(book => {
-      if (seen.has(book.id)) return false
-      seen.add(book.id)
-      return true
-    })
-  }, [initialBooks])
-
-  // Highlights: top 10 most mentioned (by episode count)
-  const top10MostMentioned = useMemo(() => {
-    return [...books]
-      .sort((a, b) => b.episodeCount - a.episodeCount)
-      .slice(0, 10)
-  }, [books])
-
-  // Highlights: latest episode (max episodeNum) and books from that episode
-  const { latestEpisode, latestEpisodeBooks } = useMemo((): {
-    latestEpisode: Episode | null
-    latestEpisodeBooks: Book[]
-  } => {
-    let latest: Episode | null = null
-    books.forEach((book) => {
-      book.episodes?.forEach((ep) => {
-        if (!latest || ep.episodeNum > latest.episodeNum) latest = ep
-      })
-    })
-    if (!latest) return { latestEpisode: null, latestEpisodeBooks: [] }
-    const key = episodeKey(latest)
-    const fromLatest = books.filter((book) =>
-      book.episodes?.some((ep) => episodeKey(ep) === key)
-    )
-    return { latestEpisode: latest, latestEpisodeBooks: fromLatest }
-  }, [books])
+  // The `initialBooks` are already deduplicated on the server
+  const books = initialBooks
 
   // Filter books based on active filter (for "all" view)
   const filteredBooks = useMemo(() => {
