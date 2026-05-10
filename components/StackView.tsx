@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useMemo, useEffect, useCallback } from 'react'
-import { AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 import type { Book, Episode } from '@/types/book'
 import { useBookStatus } from '@/hooks/useBookStatus'
@@ -221,17 +220,15 @@ export default function StackView({ books, onBookClick, initialSearchQuery = '' 
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 items-stretch">
-                <AnimatePresence>
-                    {filteredAndSortedBooks.map((book, index) => (
-                        <BookCard
-                            key={book.id}
-                            book={book}
-                            onBookClick={handleBookClick}
-                            status={statuses[book.id] || null}
-                            index={index}
-                        />
-                    ))}
-                </AnimatePresence>
+                {filteredAndSortedBooks.map((book, index) => (
+                    <BookCard
+                        key={book.id}
+                        book={book}
+                        onBookClick={handleBookClick}
+                        status={statuses[book.id] || null}
+                        index={index}
+                    />
+                ))}
             </div>
 
             {filteredAndSortedBooks.length === 0 && (

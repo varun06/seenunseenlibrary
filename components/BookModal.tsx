@@ -99,7 +99,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                     aria-labelledby="modal-title"
                 >
                     <div className="sticky top-0 bg-white border-b border-gray-200 px-6 py-4 flex items-center justify-between z-10">
-                        <h2 id="modal-title" className="text-xl font-bold text-gray-900">Book Details</h2>
+                        <h2 id="modal-title" className="text-base font-semibold text-gray-900 line-clamp-1 flex-1 mr-4">{book.title}</h2>
                         <button
                             onClick={onClose}
                             className="text-gray-400 hover:text-gray-600 transition-colors"
@@ -192,14 +192,11 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                             {book.episodes.length > 0 ? (
                                 <div className="space-y-3">
                                     {book.episodes.map((episode, index) => (
-                                        <motion.a
+                                        <a
                                             key={`${episode.episodeNum}-${index}`}
                                             href={episode.episodeUrl}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            initial={{ opacity: 0, x: -20 }}
-                                            animate={{ opacity: 1, x: 0 }}
-                                            transition={{ delay: index * 0.05 }}
                                             className="block p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors border border-gray-200"
                                         >
                                             <div className="flex items-start justify-between">
@@ -238,7 +235,7 @@ export default function BookModal({ book, onClose }: BookModalProps) {
                                                     />
                                                 </svg>
                                             </div>
-                                        </motion.a>
+                                        </a>
                                     ))}
                                 </div>
                             ) : (

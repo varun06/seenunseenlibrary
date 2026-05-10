@@ -16,10 +16,9 @@ interface BookCardProps {
 export default function BookCard({ book, onBookClick, status, index = 0 }: BookCardProps) {
   return (
     <motion.div
-      initial={{ opacity: 0, y: 10 }}
+      initial={{ opacity: 0, y: 8 }}
       animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, scale: 0.95 }}
-      transition={{ duration: 0.2 }}
+      transition={{ duration: 0.15 }}
       className="cursor-pointer h-full flex flex-col"
       onClick={() => onBookClick(book)}
     >
@@ -57,16 +56,11 @@ export default function BookCard({ book, onBookClick, status, index = 0 }: BookC
           <h3 className="text-sm font-medium text-gray-900 line-clamp-2 flex-1">
             {book.title}
           </h3>
-          <div className="flex items-center justify-between mt-1">
-            {book.episodeCount > 0 && (
-              <p className="text-xs text-gray-500">
-                {book.episodeCount} episode{book.episodeCount !== 1 ? 's' : ''}
-              </p>
-            )}
-            <div className="sm:hidden">
-              <StatusBadge bookId={book.id} status={status} />
-            </div>
-          </div>
+          {book.episodeCount > 0 && (
+            <p className="text-xs text-gray-500 mt-1">
+              {book.episodeCount} episode{book.episodeCount !== 1 ? 's' : ''}
+            </p>
+          )}
         </div>
       </div>
     </motion.div>

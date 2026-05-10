@@ -237,6 +237,26 @@
     "originalIndex": 10
   },
   {
+    "id": "B0DSZ9JXDR",
+    "asin": "B0DSZ9JXDR",
+    "title": "A Brief History of the World in 47 Borders",
+    "amazonLink": "http://amazon.in/Brief-History-World-Borders-Surprising/dp/B0DSZ9JXDR/ref=tmm_pap_swatch_0",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B0DSZ9JXDR.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B015A9TDC6",
     "asin": "B015A9TDC6",
     "title": "A Call to Honour",
@@ -568,7 +588,7 @@
     "asin": "B01AYBWPUM",
     "title": "A Gentleman in Moscow",
     "amazonLink": "https://www.amazon.in/Gentleman-Moscow-Amor-Towles-ebook/dp/B01AYBWPUM/ref=sr_1_1?keywords=gentleman+in+moscow",
-    "episodeCount": 4,
+    "episodeCount": 3,
     "episodes": [
       {
         "episodeNum": 253,
@@ -581,12 +601,18 @@
         "episodeTitle": "Pramit Bhattacharya Believes In Just One Ism",
         "episodeDate": "2021-12-20",
         "episodeUrl": "https://seenunseen.in/episodes/2021/12/20/episode-256-pramit-bhattacharya-believes-in-just-one-ism/"
+      },
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
       }
     ],
     "cover": "/images/covers/B01AYBWPUM.jpg",
     "backgroundColor": "#f0f0f0",
     "textColor": "#1f1f2e",
-    "spineWidth": 52,
+    "spineWidth": 49,
     "height": 384,
     "originalIndex": 26
   },
@@ -1990,6 +2016,26 @@
     "spineWidth": 43,
     "height": 384,
     "originalIndex": 84
+  },
+  {
+    "id": "B015P6B0BG",
+    "asin": "B015P6B0BG",
+    "title": "Amicus Curiae: Khaitan & Co is 100",
+    "amazonLink": "https://www.amazon.in/Amicus-Curiae-Khaitan-Co-100-ebook/dp/B015P6B0BG",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B015P6B0BG.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B09H7HQQDW",
@@ -14199,6 +14245,26 @@
     "originalIndex": 581
   },
   {
+    "id": "B00BUKIUZQ",
+    "asin": "B00BUKIUZQ",
+    "title": "Letters To A Young Poet",
+    "amazonLink": "https://www.amazon.in/Letters-Young-Rainer-Maria-Rilke-ebook/dp/B00BUKIUZQ/ref=tmm_kin_swatch_0",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B00BUKIUZQ.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B00BUB5CVK",
     "asin": "B00BUB5CVK",
     "title": "Levels of Life",
@@ -18741,6 +18807,26 @@
     "originalIndex": 771
   },
   {
+    "id": "B07D987J5P",
+    "asin": "B07D987J5P",
+    "title": "Privacy 3.0",
+    "amazonLink": "https://www.amazon.in/dp/B07D987J5P?ref_=cm_sw_r_cp_ud_dp_TXJM0W6YQTRR1BVP5MRX",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B07D987J5P.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B082QVPYPL",
     "asin": "B082QVPYPL",
     "title": "Private Truths, Public Lies",
@@ -20814,6 +20900,26 @@
     "originalIndex": 860
   },
   {
+    "id": "B0F14845GY",
+    "asin": "B0F14845GY",
+    "title": "Shattered Lands: Five Partitions and the Making of Modern Asia",
+    "amazonLink": "https://www.amazon.in/Shattered-Lands-Partitions-Making-Modern-ebook/dp/B0F14845GY/ref=sr_1_1?crid=2NT7VDB1GMZZ4",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B0F14845GY.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B07DG814RQ",
     "asin": "B07DG814RQ",
     "title": "Shekhar: A Life",
@@ -22762,7 +22868,7 @@
     "asin": "B08JS168BJ",
     "title": "Testaments Betrayed",
     "amazonLink": "https://www.amazon.in/gp/product/B08JS168BJ/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i9",
-    "episodeCount": 2,
+    "episodeCount": 3,
     "episodes": [
       {
         "episodeNum": 255,
@@ -22775,12 +22881,18 @@
         "episodeTitle": "Gautam John Is Figuring It Out",
         "episodeDate": "2026-02-09",
         "episodeUrl": "https://seenunseen.in/episodes/2026/2/9/episode-437-gautam-john-is-figuring-it-out/"
+      },
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
       }
     ],
     "cover": "/images/covers/B08JS168BJ.jpg",
     "backgroundColor": "#f0f0f0",
     "textColor": "#1f1f2e",
-    "spineWidth": 46,
+    "spineWidth": 49,
     "height": 384,
     "originalIndex": 945
   },
@@ -23281,6 +23393,26 @@
     "spineWidth": 58,
     "height": 384,
     "originalIndex": 967
+  },
+  {
+    "id": "0140278168",
+    "asin": "0140278168",
+    "title": "The Beginning of Infinity",
+    "amazonLink": "https://www.amazon.in/Penguin-Classics-Beginning-Infinity-Deutsch/dp/0140278168/ref=sr_1_1?crid=1JK5DFP8INSAL",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/0140278168.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B005HHSYMW",
@@ -23791,6 +23923,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 985
+  },
+  {
+    "id": "B0BRHBGKMJ",
+    "asin": "B0BRHBGKMJ",
+    "title": "The Broken Script",
+    "amazonLink": "https://www.amazon.in/dp/B0BRHBGKMJ?ref_=cm_sw_r_cp_ud_dp_0RVK6KSZW99ZMZKZGMEB",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B0BRHBGKMJ.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B07DV7R99B",
@@ -24732,6 +24884,26 @@
     "originalIndex": 1024
   },
   {
+    "id": "B0B5RM18NC",
+    "asin": "B0B5RM18NC",
+    "title": "The Creative Act",
+    "amazonLink": "https://www.amazon.in/Creative-Act-Way-Being-ebook/dp/B0B5RM18NC/ref=tmm_kin_swatch_0?_encoding=UTF8",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B0B5RM18NC.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B000JVOJHK",
     "asin": "B000JVOJHK",
     "title": "The Crisis of Political Imagination",
@@ -25648,6 +25820,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 1060
+  },
+  {
+    "id": "B004YB9HVY",
+    "asin": "B004YB9HVY",
+    "title": "The Fabric of Reality",
+    "amazonLink": "https://www.amazon.in/Fabric-Reality-Towards-Everything-Penguin-ebook/dp/B004YB9HVY/ref=tmm_kin_swatch_0?_encoding=UTF8",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B004YB9HVY.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B006OYD2K6",
@@ -33502,6 +33694,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 1390
+  },
+  {
+    "id": "B0G2S6PRC8",
+    "asin": "B0G2S6PRC8",
+    "title": "Trilegal: The Making of a Modern Indian Law Firm",
+    "amazonLink": "https://www.amazon.in/Trilegal-Making-Modern-Indian-Firm-ebook/dp/B0G2S6PRC8/ref=sr_1_1?crid=1YSA1Z8VIAGRU",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 443,
+        "episodeTitle": "The Making Of A Law Firm",
+        "episodeDate": "2026-05-04",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/5/4/episode-443-the-making-of-a-law-firm/"
+      }
+    ],
+    "cover": "/images/covers/B0G2S6PRC8.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B004T1900M",

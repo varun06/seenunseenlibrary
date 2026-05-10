@@ -19,6 +19,7 @@
     "_process-data": "node scripts/create_directories.js && node scripts/process_books_data.js"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001792",
     "framer-motion": "^10.16.0",
     "next": "^14.0.0",
     "react": "^18.2.0",
