@@ -1,5 +1,25 @@
 [
   {
+    "id": "B005WJ4LO0",
+    "asin": "B005WJ4LO0",
+    "title": "-- Charles Mann.",
+    "amazonLink": "https://www.amazon.in/dp/B005WJ4LO0?ref=cm_sw_r_ffobk_cp_ud_dp_6B6RZ2DSR8R4GNHPVWBY&ref_=cm_sw_r_ffobk_cp_ud_dp_6B6RZ2DSR8R4GNHPVWBY&social_share=cm_sw_r_ffobk_cp_ud_dp_6B6RZ2DSR8R4GNHPVWBY&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B005WJ4LO0.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B001MLUHXQ",
     "asin": "B001MLUHXQ",
     "title": "12 Angry Men",
@@ -2449,6 +2469,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 104
+  },
+  {
+    "id": "B08Y2LMC5F",
+    "asin": "B08Y2LMC5F",
+    "title": "And the Band Played On",
+    "amazonLink": "https://www.amazon.in/dp/B08Y2LMC5F?ref=cm_sw_r_ffobk_cp_ud_dp_CTGZ2MNBGTT4TJJTKRB8&ref_=cm_sw_r_ffobk_cp_ud_dp_CTGZ2MNBGTT4TJJTKRB8&social_share=cm_sw_r_ffobk_cp_ud_dp_CTGZ2MNBGTT4TJJTKRB8&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B08Y2LMC5F.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B07FM3S3VH",
@@ -9042,6 +9082,26 @@
     "originalIndex": 378
   },
   {
+    "id": "B011PQJO22",
+    "asin": "B011PQJO22",
+    "title": "Fortress and Frontier in American Health Care",
+    "amazonLink": "https://www.amazon.in/dp/B011PQJO22?ref=cm_sw_r_cp_ud_dp_6NFP68QA0V6RESX74W37&ref_=cm_sw_r_cp_ud_dp_6NFP68QA0V6RESX74W37&social_share=cm_sw_r_cp_ud_dp_6NFP68QA0V6RESX74W37&skipTwisterOG=1",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B011PQJO22.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B005Z4QHEE",
     "asin": "B005Z4QHEE",
     "title": "Four Seasons in Rome",
@@ -9724,6 +9784,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 408
+  },
+  {
+    "id": "B00629MDKI",
+    "asin": "B00629MDKI",
+    "title": "Genentech: The Beginnings of Biotech",
+    "amazonLink": "https://www.amazon.in/dp/B00629MDKI?ref=cm_sw_r_ffobk_cp_ud_dp_BCQJTA7FYMVYFPEP2081&ref_=cm_sw_r_ffobk_cp_ud_dp_BCQJTA7FYMVYFPEP2081&social_share=cm_sw_r_ffobk_cp_ud_dp_BCQJTA7FYMVYFPEP2081&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B00629MDKI.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B06Y6248H5",
@@ -11539,6 +11619,26 @@
     "spineWidth": 49,
     "height": 384,
     "originalIndex": 477
+  },
+  {
+    "id": "B01GOLEOPK",
+    "asin": "B01GOLEOPK",
+    "title": "How to Survive a Plague",
+    "amazonLink": "https://www.amazon.in/dp/B01GOLEOPK?ref=cm_sw_r_ffobk_cp_ud_dp_XZHRF7KB1CQ6VCE7DXYY&ref_=cm_sw_r_ffobk_cp_ud_dp_XZHRF7KB1CQ6VCE7DXYY&social_share=cm_sw_r_ffobk_cp_ud_dp_XZHRF7KB1CQ6VCE7DXYY&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B01GOLEOPK.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "B07NMGNWNZ",
@@ -17597,6 +17697,12 @@
         "episodeTitle": "The State Of Indian Sport",
         "episodeDate": "2021-08-16",
         "episodeUrl": "https://seenunseen.in/episodes/2021/8/16/episode-238-the-state-of-indian-sport/"
+      },
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
       }
     ],
     "cover": "/images/covers/B002RI9PKO.jpg",
@@ -22173,6 +22279,26 @@
     "originalIndex": 919
   },
   {
+    "id": "B01ES6XS8C",
+    "asin": "B01ES6XS8C",
+    "title": "Strong Medicine",
+    "amazonLink": "https://www.amazon.in/dp/B01ES6XS8C?ref=cm_sw_r_ffobk_cp_ud_dp_3G8P1DVAWBDXVFRXPNSS&ref_=cm_sw_r_ffobk_cp_ud_dp_3G8P1DVAWBDXVFRXPNSS&social_share=cm_sw_r_ffobk_cp_ud_dp_3G8P1DVAWBDXVFRXPNSS&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B01ES6XS8C.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
+  },
+  {
     "id": "B07G9DFC8W",
     "asin": "B07G9DFC8W",
     "title": "Stubborn Attachments: A Vision for a Society of Free, Prosperous, and Responsible Individuals",
@@ -22324,7 +22450,7 @@
     "asin": "B00Y78X7HY",
     "title": "Superforecasting",
     "amazonLink": "https://www.amazon.in/Superforecasting-Science-Prediction-Philip-Tetlock-ebook/dp/B00Y78X7HY/ref=sr_1_1?keywords=superforecasting",
-    "episodeCount": 22,
+    "episodeCount": 12,
     "episodes": [
       {
         "episodeNum": 162,
@@ -22391,12 +22517,18 @@
         "episodeTitle": "Gurwinder Bhogal Examines Human Nature",
         "episodeDate": "2023-05-29",
         "episodeUrl": "https://seenunseen.in/episodes/2023/5/29/episode-331-gurwinder-bhogal-examines-human-nature/"
+      },
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
       }
     ],
     "cover": "/images/covers/B00Y78X7HY.jpg",
     "backgroundColor": "#f0f0f0",
     "textColor": "#1f1f2e",
-    "spineWidth": 106,
+    "spineWidth": 76,
     "height": 384,
     "originalIndex": 927
   },
@@ -24610,6 +24742,26 @@
     "spineWidth": 46,
     "height": 384,
     "originalIndex": 1018
+  },
+  {
+    "id": "B06XCGFMD5",
+    "asin": "B06XCGFMD5",
+    "title": "The Collapse",
+    "amazonLink": "https://www.amazon.in/dp/B06XCGFMD5?ref=cm_sw_r_ffobk_cp_ud_dp_F0YF78DK1PPFHPHRDTC2&ref_=cm_sw_r_ffobk_cp_ud_dp_F0YF78DK1PPFHPHRDTC2&social_share=cm_sw_r_ffobk_cp_ud_dp_F0YF78DK1PPFHPHRDTC2&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 445,
+        "episodeTitle": "I Am Saloni And I Like Collecting Mice",
+        "episodeDate": "2026-06-01",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/6/1/episode-445-i-am-saloni-and-i-like-collecting-mice/"
+      }
+    ],
+    "cover": "/images/covers/B06XCGFMD5.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384
   },
   {
     "id": "0195668960",
