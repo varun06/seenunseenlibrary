@@ -12793,7 +12793,7 @@
     "asin": "B07F9W12DD",
     "title": "India Moving",
     "amazonLink": "https://www.amazon.in/India-Moving-Migration-Chinmay-Tumbe-ebook/dp/B07F9W12DD/ref=sr_1_2?keywords=chinmay+tumbe",
-    "episodeCount": 11,
+    "episodeCount": 12,
     "episodes": [
       {
         "episodeNum": 128,
@@ -12860,12 +12860,18 @@
         "episodeTitle": "Gautam John Is Figuring It Out",
         "episodeDate": "2026-02-09",
         "episodeUrl": "https://seenunseen.in/episodes/2026/2/9/episode-437-gautam-john-is-figuring-it-out/"
+      },
+      {
+        "episodeNum": 448,
+        "episodeTitle": "Vidya Mahambare The Rooted Economist",
+        "episodeDate": "2026-07-13",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/7/13/episode-448-vidya-mahambare-the-rooted-economist/"
       }
     ],
     "cover": "/images/covers/B07F9W12DD.jpg",
     "backgroundColor": "#f0f0f0",
     "textColor": "#1f1f2e",
-    "spineWidth": 73,
+    "spineWidth": 76,
     "height": 384,
     "originalIndex": 523
   },
@@ -16188,6 +16194,27 @@
     "originalIndex": 665
   },
   {
+    "id": "0143471937",
+    "asin": "0143471937",
+    "title": "More from Less for More",
+    "amazonLink": "https://www.amazon.in/dp/0143471937?ref=cm_sw_r_ffobk_cp_ud_dp_N9WHZWQH5YQ78DESAY9N&ref_=cm_sw_r_ffobk_cp_ud_dp_N9WHZWQH5YQ78DESAY9N&social_share=cm_sw_r_ffobk_cp_ud_dp_N9WHZWQH5YQ78DESAY9N&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 448,
+        "episodeTitle": "Vidya Mahambare The Rooted Economist",
+        "episodeDate": "2026-07-13",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/7/13/episode-448-vidya-mahambare-the-rooted-economist/"
+      }
+    ],
+    "cover": "/images/covers/0143471937.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384,
+    "originalIndex": 666
+  },
+  {
     "id": "B0FP292KNX",
     "asin": "B0FP292KNX",
     "title": "Mother Mary Comes to Me",
@@ -16206,7 +16233,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 666
+    "originalIndex": 667
   },
   {
     "id": "8170461391",
@@ -16227,7 +16254,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 667
+    "originalIndex": 668
   },
   {
     "id": "B0096QYOLA",
@@ -16248,7 +16275,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 668
+    "originalIndex": 669
   },
   {
     "id": "B005NHN232",
@@ -16269,7 +16296,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 669
+    "originalIndex": 670
   },
   {
     "id": "8185986045",
@@ -16290,7 +16317,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 670
+    "originalIndex": 671
   },
   {
     "id": "8175994215",
@@ -16311,7 +16338,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 671
+    "originalIndex": 672
   },
   {
     "id": "B01N8RJC63",
@@ -16332,7 +16359,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 672
+    "originalIndex": 673
   },
   {
     "id": "B00B24FBSO",
@@ -16353,7 +16380,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 673
+    "originalIndex": 674
   },
   {
     "id": "B01MFFDBZT",
@@ -16374,7 +16401,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 674
+    "originalIndex": 675
   },
   {
     "id": "B01NA0G95B",
@@ -16401,7 +16428,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 675
+    "originalIndex": 676
   },
   {
     "id": "B005G21CBS",
@@ -16422,7 +16449,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 676
+    "originalIndex": 677
   },
   {
     "id": "B088Z1SHZ2",
@@ -16449,7 +16476,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 677
+    "originalIndex": 678
   },
   {
     "id": "B00IAQJIMM",
@@ -16470,7 +16497,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 678
+    "originalIndex": 679
   },
   {
     "id": "0394716582",
@@ -16491,7 +16518,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 679
+    "originalIndex": 680
   },
   {
     "id": "B09JPH5XMV",
@@ -16512,7 +16539,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 680
+    "originalIndex": 681
   },
   {
     "id": "8129113635",
@@ -16533,7 +16560,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 681
+    "originalIndex": 682
   },
   {
     "id": "0706902556",
@@ -16554,7 +16581,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 682
+    "originalIndex": 683
   },
   {
     "id": "9386797003",
@@ -16575,7 +16602,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 683
+    "originalIndex": 684
   },
   {
     "id": "B0746PJB7M",
@@ -16596,7 +16623,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 684
+    "originalIndex": 685
   },
   {
     "id": "B0984J9Y49",
@@ -16617,7 +16644,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 685
+    "originalIndex": 686
   },
   {
     "id": "B06ZZMLMKT",
@@ -16638,7 +16665,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 686
+    "originalIndex": 687
   },
   {
     "id": "8190617311",
@@ -16671,7 +16698,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 687
+    "originalIndex": 688
   },
   {
     "id": "0345803701",
@@ -16692,7 +16719,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 688
+    "originalIndex": 689
   },
   {
     "id": "B08ZNVVWZT",
@@ -16713,7 +16740,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 689
+    "originalIndex": 690
   },
   {
     "id": "9390644682",
@@ -16734,7 +16761,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 690
+    "originalIndex": 691
   },
   {
     "id": "B01N8QME9P",
@@ -16755,7 +16782,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 691
+    "originalIndex": 692
   },
   {
     "id": "B002V092B0",
@@ -16776,7 +16803,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 692
+    "originalIndex": 693
   },
   {
     "id": "193063742X",
@@ -16797,7 +16824,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 693
+    "originalIndex": 694
   },
   {
     "id": "9392458134",
@@ -16818,7 +16845,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 694
+    "originalIndex": 695
   },
   {
     "id": "0674249089",
@@ -16845,7 +16872,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 695
+    "originalIndex": 696
   },
   {
     "id": "B07RRDVTHY",
@@ -16866,7 +16893,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 696
+    "originalIndex": 697
   },
   {
     "id": "B0097JYVAU",
@@ -16887,7 +16914,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 697
+    "originalIndex": 698
   },
   {
     "id": "B08TMGZCP9",
@@ -16908,7 +16935,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 698
+    "originalIndex": 699
   },
   {
     "id": "B01FDLEK7O",
@@ -16929,7 +16956,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 699
+    "originalIndex": 700
   },
   {
     "id": "B008M7RWWC",
@@ -16950,7 +16977,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 700
+    "originalIndex": 701
   },
   {
     "id": "B09GH2KD1X",
@@ -17007,7 +17034,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 61,
     "height": 384,
-    "originalIndex": 701
+    "originalIndex": 702
   },
   {
     "id": "B06XXYS2XT",
@@ -17028,7 +17055,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 702
+    "originalIndex": 703
   },
   {
     "id": "9351941485",
@@ -17049,7 +17076,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 703
+    "originalIndex": 704
   },
   {
     "id": "B009FUF5BK",
@@ -17070,7 +17097,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 704
+    "originalIndex": 705
   },
   {
     "id": "B006BAJBUS",
@@ -17091,7 +17118,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 705
+    "originalIndex": 706
   },
   {
     "id": "B002RI9ZX6",
@@ -17112,7 +17139,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 706
+    "originalIndex": 707
   },
   {
     "id": "B006RXPX88",
@@ -17133,7 +17160,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 707
+    "originalIndex": 708
   },
   {
     "id": "B000M1HN5M",
@@ -17154,7 +17181,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 708
+    "originalIndex": 709
   },
   {
     "id": "B086R9L77Y",
@@ -17175,7 +17202,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 709
+    "originalIndex": 710
   },
   {
     "id": "B00HVPSXTM",
@@ -17196,7 +17223,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 710
+    "originalIndex": 711
   },
   {
     "id": "B07DVT2VZK",
@@ -17217,7 +17244,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 711
+    "originalIndex": 712
   },
   {
     "id": "B09RXX6DRH",
@@ -17238,7 +17265,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 712
+    "originalIndex": 713
   },
   {
     "id": "0143103229",
@@ -17259,7 +17286,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 713
+    "originalIndex": 714
   },
   {
     "id": "B07731KM5K",
@@ -17280,7 +17307,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 714
+    "originalIndex": 715
   },
   {
     "id": "0745308392",
@@ -17301,7 +17328,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 715
+    "originalIndex": 716
   },
   {
     "id": "B009KERBQI",
@@ -17322,7 +17349,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 716
+    "originalIndex": 717
   },
   {
     "id": "B003V5CFV8",
@@ -17343,7 +17370,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 717
+    "originalIndex": 718
   },
   {
     "id": "B0932J3834",
@@ -17364,7 +17391,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 718
+    "originalIndex": 719
   },
   {
     "id": "9390327547",
@@ -17385,7 +17412,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 719
+    "originalIndex": 720
   },
   {
     "id": "B08RHRZQBP",
@@ -17406,7 +17433,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 720
+    "originalIndex": 721
   },
   {
     "id": "B00PA6Q66G",
@@ -17427,7 +17454,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 721
+    "originalIndex": 722
   },
   {
     "id": "B08YTXN81Y",
@@ -17448,7 +17475,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 722
+    "originalIndex": 723
   },
   {
     "id": "B00LM9S7FS",
@@ -17469,7 +17496,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 723
+    "originalIndex": 724
   },
   {
     "id": "B001EQ4OJW",
@@ -17526,7 +17553,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 61,
     "height": 384,
-    "originalIndex": 724
+    "originalIndex": 725
   },
   {
     "id": "0571211259",
@@ -17547,7 +17574,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 725
+    "originalIndex": 726
   },
   {
     "id": "B00JUS9BVW",
@@ -17574,7 +17601,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 726
+    "originalIndex": 727
   },
   {
     "id": "B00WAM14MO",
@@ -17637,7 +17664,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 727
+    "originalIndex": 728
   },
   {
     "id": "1565844750",
@@ -17658,7 +17685,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 728
+    "originalIndex": 729
   },
   {
     "id": "B074BYLSGG",
@@ -17679,7 +17706,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 729
+    "originalIndex": 730
   },
   {
     "id": "B00AN4C6KU",
@@ -17700,7 +17727,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 730
+    "originalIndex": 731
   },
   {
     "id": "B01N9OJ2DX",
@@ -17721,7 +17748,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 731
+    "originalIndex": 732
   },
   {
     "id": "B003BVFZ4Q",
@@ -17742,7 +17769,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 732
+    "originalIndex": 733
   },
   {
     "id": "B081QDSKHL",
@@ -17769,7 +17796,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 733
+    "originalIndex": 734
   },
   {
     "id": "B00BMKMK3M",
@@ -17796,7 +17823,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 734
+    "originalIndex": 735
   },
   {
     "id": "B07TXQP9D4",
@@ -17823,7 +17850,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 735
+    "originalIndex": 736
   },
   {
     "id": "0262038765",
@@ -17856,7 +17883,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 55,
     "height": 384,
-    "originalIndex": 736
+    "originalIndex": 737
   },
   {
     "id": "B08BSYX83S",
@@ -17877,7 +17904,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 737
+    "originalIndex": 738
   },
   {
     "id": "B06XXY491X",
@@ -17898,7 +17925,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 738
+    "originalIndex": 739
   },
   {
     "id": "B07K1NQ4C1",
@@ -17919,7 +17946,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 739
+    "originalIndex": 740
   },
   {
     "id": "9389648890",
@@ -17952,7 +17979,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 740
+    "originalIndex": 741
   },
   {
     "id": "B00AWLAYWQ",
@@ -17973,7 +18000,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 741
+    "originalIndex": 742
   },
   {
     "id": "B002RI9PKO",
@@ -18000,7 +18027,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 742
+    "originalIndex": 743
   },
   {
     "id": "B08M9N8K9L",
@@ -18021,7 +18048,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 743
+    "originalIndex": 744
   },
   {
     "id": "B07JDTYZL2",
@@ -18114,7 +18141,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 79,
     "height": 384,
-    "originalIndex": 744
+    "originalIndex": 745
   },
   {
     "id": "B077Y318P5",
@@ -18141,7 +18168,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 745
+    "originalIndex": 746
   },
   {
     "id": "819464335X",
@@ -18162,7 +18189,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 746
+    "originalIndex": 747
   },
   {
     "id": "B07QC97YKB",
@@ -18183,7 +18210,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 747
+    "originalIndex": 748
   },
   {
     "id": "B07YM14FRG",
@@ -18210,7 +18237,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 748
+    "originalIndex": 749
   },
   {
     "id": "B00BGR8030",
@@ -18231,7 +18258,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 749
+    "originalIndex": 750
   },
   {
     "id": "B08CDDD2CC",
@@ -18252,7 +18279,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 750
+    "originalIndex": 751
   },
   {
     "id": "0464974364",
@@ -18297,7 +18324,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 67,
     "height": 384,
-    "originalIndex": 751
+    "originalIndex": 752
   },
   {
     "id": "812671011X",
@@ -18318,7 +18345,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 752
+    "originalIndex": 753
   },
   {
     "id": "B06X9QQJ57",
@@ -18339,7 +18366,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 753
+    "originalIndex": 754
   },
   {
     "id": "B09LVWGY1K",
@@ -18360,7 +18387,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 754
+    "originalIndex": 755
   },
   {
     "id": "0143102958",
@@ -18381,7 +18408,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 755
+    "originalIndex": 756
   },
   {
     "id": "B0015DWFSQ",
@@ -18402,7 +18429,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 756
+    "originalIndex": 757
   },
   {
     "id": "B06XY35XJN",
@@ -18429,7 +18456,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 757
+    "originalIndex": 758
   },
   {
     "id": "B01K1FK5SK",
@@ -18450,7 +18477,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 758
+    "originalIndex": 759
   },
   {
     "id": "0739194577",
@@ -18471,7 +18498,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 759
+    "originalIndex": 760
   },
   {
     "id": "8173027161",
@@ -18492,7 +18519,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 760
+    "originalIndex": 761
   },
   {
     "id": "8184672594",
@@ -18513,7 +18540,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 761
+    "originalIndex": 762
   },
   {
     "id": "0434905534",
@@ -18540,7 +18567,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 762
+    "originalIndex": 763
   },
   {
     "id": "B00DHIYEZY",
@@ -18567,7 +18594,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 763
+    "originalIndex": 764
   },
   {
     "id": "B084WSHM69",
@@ -18588,7 +18615,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 764
+    "originalIndex": 765
   },
   {
     "id": "B0049H8TX0",
@@ -18609,7 +18636,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 765
+    "originalIndex": 766
   },
   {
     "id": "B09TL5K631",
@@ -18636,7 +18663,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 766
+    "originalIndex": 767
   },
   {
     "id": "B00KEW8KC4",
@@ -18657,7 +18684,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 767
+    "originalIndex": 768
   },
   {
     "id": "B06XYP8B6R",
@@ -18690,7 +18717,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 768
+    "originalIndex": 769
   },
   {
     "id": "0812986709",
@@ -18711,7 +18738,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 769
+    "originalIndex": 770
   },
   {
     "id": "0393912728",
@@ -18744,7 +18771,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 770
+    "originalIndex": 771
   },
   {
     "id": "B00KDB2JP0",
@@ -18801,7 +18828,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 82,
     "height": 384,
-    "originalIndex": 771
+    "originalIndex": 772
   },
   {
     "id": "B00WEG0OU4",
@@ -18822,7 +18849,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 772
+    "originalIndex": 773
   },
   {
     "id": "B08L583XPV",
@@ -18843,7 +18870,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 773
+    "originalIndex": 774
   },
   {
     "id": "0812968360",
@@ -18864,7 +18891,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 774
+    "originalIndex": 775
   },
   {
     "id": "B008MXWX02",
@@ -18885,7 +18912,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 775
+    "originalIndex": 776
   },
   {
     "id": "B008593PO6",
@@ -18906,7 +18933,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 776
+    "originalIndex": 777
   },
   {
     "id": "B008YEAMW0",
@@ -18927,7 +18954,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 777
+    "originalIndex": 778
   },
   {
     "id": "B006VL1HPY",
@@ -18948,7 +18975,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 778
+    "originalIndex": 779
   },
   {
     "id": "0810112752",
@@ -18969,7 +18996,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 779
+    "originalIndex": 780
   },
   {
     "id": "B00JF7EEWO",
@@ -18990,7 +19017,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 780
+    "originalIndex": 781
   },
   {
     "id": "0465051952",
@@ -19035,7 +19062,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 70,
     "height": 384,
-    "originalIndex": 781
+    "originalIndex": 782
   },
   {
     "id": "B004YPJ8SM",
@@ -19056,7 +19083,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 782
+    "originalIndex": 783
   },
   {
     "id": "B00847CN5Q",
@@ -19077,7 +19104,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 783
+    "originalIndex": 784
   },
   {
     "id": "B07WVCFKYX",
@@ -19098,7 +19125,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 784
+    "originalIndex": 785
   },
   {
     "id": "B00H9HZL1U",
@@ -19125,7 +19152,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 785
+    "originalIndex": 786
   },
   {
     "id": "0300254237",
@@ -19146,7 +19173,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 786
+    "originalIndex": 787
   },
   {
     "id": "B09JBMZTT2",
@@ -19173,7 +19200,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 787
+    "originalIndex": 788
   },
   {
     "id": "B0DGG2RTWV",
@@ -19194,7 +19221,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 788
+    "originalIndex": 789
   },
   {
     "id": "B07VYR1Y7F",
@@ -19215,7 +19242,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 789
+    "originalIndex": 790
   },
   {
     "id": "B00LOTH8CO",
@@ -19236,7 +19263,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 790
+    "originalIndex": 791
   },
   {
     "id": "0295956135",
@@ -19257,7 +19284,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 791
+    "originalIndex": 792
   },
   {
     "id": "B00Y16BEM2",
@@ -19278,7 +19305,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 792
+    "originalIndex": 793
   },
   {
     "id": "B07D987J5P",
@@ -19299,7 +19326,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 793
+    "originalIndex": 794
   },
   {
     "id": "B082QVPYPL",
@@ -19398,7 +19425,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 120,
     "height": 384,
-    "originalIndex": 794
+    "originalIndex": 795
   },
   {
     "id": "B08FFJS3YW",
@@ -19419,7 +19446,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 795
+    "originalIndex": 796
   },
   {
     "id": "0295980745",
@@ -19440,7 +19467,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 796
+    "originalIndex": 797
   },
   {
     "id": "B0786QKQYT",
@@ -19461,7 +19488,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 797
+    "originalIndex": 798
   },
   {
     "id": "B09L9Y2W7S",
@@ -19482,7 +19509,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 798
+    "originalIndex": 799
   },
   {
     "id": "B015P4F71W",
@@ -19539,7 +19566,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 61,
     "height": 384,
-    "originalIndex": 799
+    "originalIndex": 800
   },
   {
     "id": "B0C3N71JJW",
@@ -19560,7 +19587,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 800
+    "originalIndex": 801
   },
   {
     "id": "B08DNTG8LL",
@@ -19581,7 +19608,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 801
+    "originalIndex": 802
   },
   {
     "id": "B08D3XQQPX",
@@ -19602,7 +19629,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 802
+    "originalIndex": 803
   },
   {
     "id": "B0074YVW1G",
@@ -19623,7 +19650,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 803
+    "originalIndex": 804
   },
   {
     "id": "B0851BJW52",
@@ -19644,7 +19671,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 804
+    "originalIndex": 805
   },
   {
     "id": "8178244632",
@@ -19665,7 +19692,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 805
+    "originalIndex": 806
   },
   {
     "id": "B0FMDR5K22",
@@ -19686,7 +19713,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 806
+    "originalIndex": 807
   },
   {
     "id": "9353490405",
@@ -19707,7 +19734,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 807
+    "originalIndex": 808
   },
   {
     "id": "8122613705",
@@ -19728,7 +19755,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 808
+    "originalIndex": 809
   },
   {
     "id": "0743254430",
@@ -19749,7 +19776,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 809
+    "originalIndex": 810
   },
   {
     "id": "B01FZC8DRO",
@@ -19770,7 +19797,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 810
+    "originalIndex": 811
   },
   {
     "id": "B07M6QPRRG",
@@ -19791,7 +19818,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 811
+    "originalIndex": 812
   },
   {
     "id": "B0C1BSNSF3",
@@ -19818,7 +19845,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 812
+    "originalIndex": 813
   },
   {
     "id": "9352876458",
@@ -19839,7 +19866,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 813
+    "originalIndex": 814
   },
   {
     "id": "0241246237",
@@ -19860,7 +19887,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 814
+    "originalIndex": 815
   },
   {
     "id": "B094PR9L6J",
@@ -19881,7 +19908,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 815
+    "originalIndex": 816
   },
   {
     "id": "B006QV7ZMS",
@@ -19914,7 +19941,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 55,
     "height": 384,
-    "originalIndex": 816
+    "originalIndex": 817
   },
   {
     "id": "9386228734",
@@ -19947,7 +19974,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 817
+    "originalIndex": 818
   },
   {
     "id": "B07YYM8WKS",
@@ -19968,7 +19995,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 818
+    "originalIndex": 819
   },
   {
     "id": "B09PBZGHNV",
@@ -19989,7 +20016,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 819
+    "originalIndex": 820
   },
   {
     "id": "B01MZ0LA7J",
@@ -20010,7 +20037,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 820
+    "originalIndex": 821
   },
   {
     "id": "9387578348",
@@ -20031,7 +20058,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 821
+    "originalIndex": 822
   },
   {
     "id": "B071PFBWM1",
@@ -20052,7 +20079,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 822
+    "originalIndex": 823
   },
   {
     "id": "B092W923R7",
@@ -20073,7 +20100,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 823
+    "originalIndex": 824
   },
   {
     "id": "B09Q3CBBCK",
@@ -20094,7 +20121,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 824
+    "originalIndex": 825
   },
   {
     "id": "9390327709",
@@ -20115,7 +20142,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 825
+    "originalIndex": 826
   },
   {
     "id": "B07P1XDM31",
@@ -20136,7 +20163,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 826
+    "originalIndex": 827
   },
   {
     "id": "131660120X",
@@ -20157,7 +20184,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 827
+    "originalIndex": 828
   },
   {
     "id": "B06XXXY9ZJ",
@@ -20178,7 +20205,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 828
+    "originalIndex": 829
   },
   {
     "id": "B073W1SV9C",
@@ -20223,7 +20250,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 70,
     "height": 384,
-    "originalIndex": 829
+    "originalIndex": 830
   },
   {
     "id": "0571195075",
@@ -20244,7 +20271,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 830
+    "originalIndex": 831
   },
   {
     "id": "B0759HLZV9",
@@ -20265,7 +20292,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 831
+    "originalIndex": 832
   },
   {
     "id": "9386021978",
@@ -20286,7 +20313,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 832
+    "originalIndex": 833
   },
   {
     "id": "B01GBAJRHE",
@@ -20307,7 +20334,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 833
+    "originalIndex": 834
   },
   {
     "id": "9387462250",
@@ -20328,7 +20355,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 834
+    "originalIndex": 835
   },
   {
     "id": "B095KF1L3X",
@@ -20349,7 +20376,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 835
+    "originalIndex": 836
   },
   {
     "id": "B07D184PRQ",
@@ -20370,7 +20397,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 836
+    "originalIndex": 837
   },
   {
     "id": "0367029200",
@@ -20391,7 +20418,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 837
+    "originalIndex": 838
   },
   {
     "id": "B00WUD680G",
@@ -20412,7 +20439,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 838
+    "originalIndex": 839
   },
   {
     "id": "B07C7M8SX9",
@@ -20433,7 +20460,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 839
+    "originalIndex": 840
   },
   {
     "id": "B00EALFQ72",
@@ -20454,7 +20481,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 840
+    "originalIndex": 841
   },
   {
     "id": "B09D7FD4RV",
@@ -20475,7 +20502,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 841
+    "originalIndex": 842
   },
   {
     "id": "938560600X",
@@ -20496,7 +20523,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 842
+    "originalIndex": 843
   },
   {
     "id": "1250073502",
@@ -20517,7 +20544,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 843
+    "originalIndex": 844
   },
   {
     "id": "0688067719",
@@ -20538,7 +20565,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 844
+    "originalIndex": 845
   },
   {
     "id": "0143028138",
@@ -20559,7 +20586,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 845
+    "originalIndex": 846
   },
   {
     "id": "B01AGHENMC",
@@ -20580,7 +20607,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 846
+    "originalIndex": 847
   },
   {
     "id": "B002RI9D56",
@@ -20601,7 +20628,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 847
+    "originalIndex": 848
   },
   {
     "id": "B08W2NF4F3",
@@ -20622,7 +20649,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 848
+    "originalIndex": 849
   },
   {
     "id": "B08XZYPTRR",
@@ -20643,7 +20670,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 849
+    "originalIndex": 850
   },
   {
     "id": "1107648378",
@@ -20664,7 +20691,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 850
+    "originalIndex": 851
   },
   {
     "id": "B004REJPZ6",
@@ -20685,7 +20712,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 851
+    "originalIndex": 852
   },
   {
     "id": "B01MQCCXPW",
@@ -20706,7 +20733,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 852
+    "originalIndex": 853
   },
   {
     "id": "B0B8JC5Q2P",
@@ -20745,7 +20772,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 853
+    "originalIndex": 854
   },
   {
     "id": "9389648777",
@@ -20766,7 +20793,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 854
+    "originalIndex": 855
   },
   {
     "id": "B00K7ED54M",
@@ -20793,7 +20820,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 855
+    "originalIndex": 856
   },
   {
     "id": "1787332810",
@@ -20814,7 +20841,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 856
+    "originalIndex": 857
   },
   {
     "id": "1787333760",
@@ -20835,7 +20862,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 857
+    "originalIndex": 858
   },
   {
     "id": "9356500347",
@@ -20856,7 +20883,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 858
+    "originalIndex": 859
   },
   {
     "id": "8189738992",
@@ -20877,7 +20904,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 859
+    "originalIndex": 860
   },
   {
     "id": "B01MSZWFRH",
@@ -20898,7 +20925,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 860
+    "originalIndex": 861
   },
   {
     "id": "B09GPKCF5B",
@@ -20919,7 +20946,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 861
+    "originalIndex": 862
   },
   {
     "id": "B097S3PTV5",
@@ -20940,7 +20967,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 862
+    "originalIndex": 863
   },
   {
     "id": "B07W4CQB8S",
@@ -20961,7 +20988,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 863
+    "originalIndex": 864
   },
   {
     "id": "B00HN6OXVQ",
@@ -20988,7 +21015,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 864
+    "originalIndex": 865
   },
   {
     "id": "B0G1THP1K4",
@@ -21009,7 +21036,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 865
+    "originalIndex": 866
   },
   {
     "id": "B09XXYHDJK",
@@ -21030,7 +21057,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 866
+    "originalIndex": 867
   },
   {
     "id": "B01GJC0NYK",
@@ -21051,7 +21078,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 867
+    "originalIndex": 868
   },
   {
     "id": "B06XXJSZXM",
@@ -21072,7 +21099,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 868
+    "originalIndex": 869
   },
   {
     "id": "9389152186",
@@ -21093,7 +21120,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 869
+    "originalIndex": 870
   },
   {
     "id": "B00D8JJYWA",
@@ -21120,7 +21147,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 870
+    "originalIndex": 871
   },
   {
     "id": "B09KS21WG7",
@@ -21141,7 +21168,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 871
+    "originalIndex": 872
   },
   {
     "id": "8187649127",
@@ -21162,7 +21189,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 872
+    "originalIndex": 873
   },
   {
     "id": "B073WVNN4L",
@@ -21183,7 +21210,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 873
+    "originalIndex": 874
   },
   {
     "id": "B000OI0FCQ",
@@ -21204,7 +21231,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 874
+    "originalIndex": 875
   },
   {
     "id": "B012UTQ6CY",
@@ -21225,7 +21252,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 875
+    "originalIndex": 876
   },
   {
     "id": "B004OR1RQG",
@@ -21252,7 +21279,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 876
+    "originalIndex": 877
   },
   {
     "id": "B00S6JB8GW",
@@ -21273,7 +21300,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 877
+    "originalIndex": 878
   },
   {
     "id": "B08QV64JPG",
@@ -21294,7 +21321,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 878
+    "originalIndex": 879
   },
   {
     "id": "9353573475",
@@ -21315,7 +21342,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 879
+    "originalIndex": 880
   },
   {
     "id": "B07M9BSY7V",
@@ -21336,7 +21363,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 880
+    "originalIndex": 881
   },
   {
     "id": "B0031RS50G",
@@ -21357,7 +21384,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 881
+    "originalIndex": 882
   },
   {
     "id": "B005LMWAMI",
@@ -21378,7 +21405,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 882
+    "originalIndex": 883
   },
   {
     "id": "B07NP62SCM",
@@ -21399,7 +21426,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 883
+    "originalIndex": 884
   },
   {
     "id": "B008B8DY2O",
@@ -21426,7 +21453,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 884
+    "originalIndex": 885
   },
   {
     "id": "1862078114",
@@ -21447,7 +21474,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 885
+    "originalIndex": 886
   },
   {
     "id": "B0F14845GY",
@@ -21468,7 +21495,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 886
+    "originalIndex": 887
   },
   {
     "id": "B07DG814RQ",
@@ -21489,7 +21516,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 887
+    "originalIndex": 888
   },
   {
     "id": "B07QHM87PK",
@@ -21510,7 +21537,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 888
+    "originalIndex": 889
   },
   {
     "id": "B0852Z47NB",
@@ -21531,7 +21558,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 889
+    "originalIndex": 890
   },
   {
     "id": "1471146723",
@@ -21552,7 +21579,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 890
+    "originalIndex": 891
   },
   {
     "id": "B00KYXY040",
@@ -21573,7 +21600,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 891
+    "originalIndex": 892
   },
   {
     "id": "B0B5L8J6W1",
@@ -21594,7 +21621,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 892
+    "originalIndex": 893
   },
   {
     "id": "B01417K0Y8",
@@ -21615,7 +21642,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 893
+    "originalIndex": 894
   },
   {
     "id": "B07BJJP9ZM",
@@ -21636,7 +21663,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 894
+    "originalIndex": 895
   },
   {
     "id": "B00ALDQ668",
@@ -21657,7 +21684,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 895
+    "originalIndex": 896
   },
   {
     "id": "B08R1GBP95",
@@ -21678,7 +21705,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 896
+    "originalIndex": 897
   },
   {
     "id": "B0B75MWX21",
@@ -21699,7 +21726,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 897
+    "originalIndex": 898
   },
   {
     "id": "B08T9FGGC9",
@@ -21720,7 +21747,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 898
+    "originalIndex": 899
   },
   {
     "id": "B0842TJSZ8",
@@ -21783,7 +21810,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 899
+    "originalIndex": 900
   },
   {
     "id": "B077QY23RV",
@@ -21804,7 +21831,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 900
+    "originalIndex": 901
   },
   {
     "id": "B00XZQB1GI",
@@ -21825,7 +21852,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 901
+    "originalIndex": 902
   },
   {
     "id": "B092SL8TCQ",
@@ -21846,7 +21873,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 902
+    "originalIndex": 903
   },
   {
     "id": "9386582570",
@@ -21873,7 +21900,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 903
+    "originalIndex": 904
   },
   {
     "id": "B004FV4XIK",
@@ -21900,7 +21927,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 904
+    "originalIndex": 905
   },
   {
     "id": "819006021X",
@@ -21921,7 +21948,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 905
+    "originalIndex": 906
   },
   {
     "id": "935357269X",
@@ -21942,7 +21969,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 906
+    "originalIndex": 907
   },
   {
     "id": "B00D2WPUIK",
@@ -21963,7 +21990,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 907
+    "originalIndex": 908
   },
   {
     "id": "B06XCG4J18",
@@ -21984,7 +22011,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 908
+    "originalIndex": 909
   },
   {
     "id": "935029060X",
@@ -22005,7 +22032,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 909
+    "originalIndex": 910
   },
   {
     "id": "B06XXS3ZB8",
@@ -22026,7 +22053,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 910
+    "originalIndex": 911
   },
   {
     "id": "B004778YJG",
@@ -22047,7 +22074,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 911
+    "originalIndex": 912
   },
   {
     "id": "B003ELY7HO",
@@ -22074,7 +22101,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 912
+    "originalIndex": 913
   },
   {
     "id": "B07HDT9JFX",
@@ -22095,7 +22122,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 913
+    "originalIndex": 914
   },
   {
     "id": "935009262X",
@@ -22122,7 +22149,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 914
+    "originalIndex": 915
   },
   {
     "id": "B01HI5SCG8",
@@ -22143,7 +22170,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 915
+    "originalIndex": 916
   },
   {
     "id": "B07H4XXKQS",
@@ -22164,7 +22191,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 916
+    "originalIndex": 917
   },
   {
     "id": "B00O0MWXJK",
@@ -22185,7 +22212,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 917
+    "originalIndex": 918
   },
   {
     "id": "B0BDM8XPRW",
@@ -22206,7 +22233,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 918
+    "originalIndex": 919
   },
   {
     "id": "B018RGALE8",
@@ -22227,7 +22254,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 919
+    "originalIndex": 920
   },
   {
     "id": "0342711741",
@@ -22248,7 +22275,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 920
+    "originalIndex": 921
   },
   {
     "id": "B07H94NF95",
@@ -22275,7 +22302,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 921
+    "originalIndex": 922
   },
   {
     "id": "B009EQG794",
@@ -22302,7 +22329,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 922
+    "originalIndex": 923
   },
   {
     "id": "B07CLM4ZKW",
@@ -22323,7 +22350,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 923
+    "originalIndex": 924
   },
   {
     "id": "B014T9HKN2",
@@ -22350,7 +22377,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 924
+    "originalIndex": 925
   },
   {
     "id": "B08G1SV9MZ",
@@ -22371,7 +22398,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 925
+    "originalIndex": 926
   },
   {
     "id": "0099448475",
@@ -22392,7 +22419,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 926
+    "originalIndex": 927
   },
   {
     "id": "B0FR8XP6N9",
@@ -22413,7 +22440,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 927
+    "originalIndex": 928
   },
   {
     "id": "B071NQBFQ8",
@@ -22470,7 +22497,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 61,
     "height": 384,
-    "originalIndex": 928
+    "originalIndex": 929
   },
   {
     "id": "B0B5L9GMSW",
@@ -22491,7 +22518,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 929
+    "originalIndex": 930
   },
   {
     "id": "1788162056",
@@ -22512,7 +22539,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 930
+    "originalIndex": 931
   },
   {
     "id": "0060391685",
@@ -22533,7 +22560,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 931
+    "originalIndex": 932
   },
   {
     "id": "B00LPDYBDS",
@@ -22554,7 +22581,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 932
+    "originalIndex": 933
   },
   {
     "id": "B00WYGGWG4",
@@ -22575,7 +22602,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 933
+    "originalIndex": 934
   },
   {
     "id": "0199325154",
@@ -22596,7 +22623,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 934
+    "originalIndex": 935
   },
   {
     "id": "B00C5H43YK",
@@ -22617,7 +22644,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 935
+    "originalIndex": 936
   },
   {
     "id": "B01ES6XS8C",
@@ -22638,7 +22665,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 936
+    "originalIndex": 937
   },
   {
     "id": "B07G9DFC8W",
@@ -22659,7 +22686,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 937
+    "originalIndex": 938
   },
   {
     "id": "B003NX6Y0G",
@@ -22680,7 +22707,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 938
+    "originalIndex": 939
   },
   {
     "id": "B01M9E254Z",
@@ -22701,7 +22728,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 939
+    "originalIndex": 940
   },
   {
     "id": "B002RI9UF4",
@@ -22722,7 +22749,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 940
+    "originalIndex": 941
   },
   {
     "id": "B002RI9YNW",
@@ -22743,7 +22770,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 941
+    "originalIndex": 942
   },
   {
     "id": "9326352056",
@@ -22764,7 +22791,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 942
+    "originalIndex": 943
   },
   {
     "id": "8129118017",
@@ -22785,7 +22812,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 943
+    "originalIndex": 944
   },
   {
     "id": "B00Y78X7HY",
@@ -22872,7 +22899,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 76,
     "height": 384,
-    "originalIndex": 944
+    "originalIndex": 945
   },
   {
     "id": "B07TJ2VYG7",
@@ -22893,7 +22920,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 945
+    "originalIndex": 946
   },
   {
     "id": "B078SQ4PWW",
@@ -22914,7 +22941,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 946
+    "originalIndex": 947
   },
   {
     "id": "9326350460",
@@ -22935,7 +22962,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 947
+    "originalIndex": 948
   },
   {
     "id": "B01MROMLW0",
@@ -22956,7 +22983,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 948
+    "originalIndex": 949
   },
   {
     "id": "0143429264",
@@ -22977,7 +23004,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 949
+    "originalIndex": 950
   },
   {
     "id": "0684826801",
@@ -22998,7 +23025,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 950
+    "originalIndex": 951
   },
   {
     "id": "B06XYPR77J",
@@ -23019,7 +23046,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 951
+    "originalIndex": 952
   },
   {
     "id": "B002RI9CHK",
@@ -23040,7 +23067,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 952
+    "originalIndex": 953
   },
   {
     "id": "B07BY7Q223",
@@ -23061,7 +23088,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 953
+    "originalIndex": 954
   },
   {
     "id": "B002RI91K8",
@@ -23082,7 +23109,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 954
+    "originalIndex": 955
   },
   {
     "id": "B09Y9LFX1X",
@@ -23109,7 +23136,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 955
+    "originalIndex": 956
   },
   {
     "id": "B00HPYMTOO",
@@ -23130,7 +23157,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 956
+    "originalIndex": 957
   },
   {
     "id": "B07MW8ZSF4",
@@ -23151,7 +23178,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 957
+    "originalIndex": 958
   },
   {
     "id": "8193830342",
@@ -23172,7 +23199,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 958
+    "originalIndex": 959
   },
   {
     "id": "8126715731",
@@ -23193,7 +23220,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 959
+    "originalIndex": 960
   },
   {
     "id": "B07MXJ33HN",
@@ -23214,7 +23241,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 960
+    "originalIndex": 961
   },
   {
     "id": "B01MFF73MC",
@@ -23235,7 +23262,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 961
+    "originalIndex": 962
   },
   {
     "id": "B002RI98BA",
@@ -23268,7 +23295,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 962
+    "originalIndex": 963
   },
   {
     "id": "B015YVRKPM",
@@ -23289,7 +23316,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 963
+    "originalIndex": 964
   },
   {
     "id": "0253205603",
@@ -23310,7 +23337,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 964
+    "originalIndex": 965
   },
   {
     "id": "B01J86AX08",
@@ -23331,7 +23358,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 965
+    "originalIndex": 966
   },
   {
     "id": "B007BYM1L4",
@@ -23352,7 +23379,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 966
+    "originalIndex": 967
   },
   {
     "id": "B003URQQGM",
@@ -23373,7 +23400,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 967
+    "originalIndex": 968
   },
   {
     "id": "B08FFF17XR",
@@ -23394,7 +23421,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 968
+    "originalIndex": 969
   },
   {
     "id": "B07G8B56XQ",
@@ -23415,7 +23442,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 969
+    "originalIndex": 970
   },
   {
     "id": "B007AB06K6",
@@ -23436,7 +23463,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 970
+    "originalIndex": 971
   },
   {
     "id": "B0084B0CKA",
@@ -23457,7 +23484,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 971
+    "originalIndex": 972
   },
   {
     "id": "B08JS168BJ",
@@ -23496,7 +23523,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 972
+    "originalIndex": 973
   },
   {
     "id": "B06XYQBHZV",
@@ -23517,7 +23544,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 973
+    "originalIndex": 974
   },
   {
     "id": "B07KNS1YN1",
@@ -23538,7 +23565,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 974
+    "originalIndex": 975
   },
   {
     "id": "0198077424",
@@ -23559,7 +23586,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 975
+    "originalIndex": 976
   },
   {
     "id": "8126535172",
@@ -23580,7 +23607,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 976
+    "originalIndex": 977
   },
   {
     "id": "B07RHGLXN3",
@@ -23601,7 +23628,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 977
+    "originalIndex": 978
   },
   {
     "id": "B07VPR8LS1",
@@ -23628,7 +23655,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 978
+    "originalIndex": 979
   },
   {
     "id": "B07JZ939W7",
@@ -23649,7 +23676,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 979
+    "originalIndex": 980
   },
   {
     "id": "0521036461",
@@ -23670,7 +23697,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 980
+    "originalIndex": 981
   },
   {
     "id": "B07PH2HHHX",
@@ -23691,7 +23718,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 981
+    "originalIndex": 982
   },
   {
     "id": "B003YUC0P6",
@@ -23724,7 +23751,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 982
+    "originalIndex": 983
   },
   {
     "id": "1471101312",
@@ -23745,7 +23772,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 983
+    "originalIndex": 984
   },
   {
     "id": "B097J8NHPL",
@@ -23766,7 +23793,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 984
+    "originalIndex": 985
   },
   {
     "id": "0340335556",
@@ -23787,7 +23814,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 985
+    "originalIndex": 986
   },
   {
     "id": "B00BBPWAJC",
@@ -23808,7 +23835,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 986
+    "originalIndex": 987
   },
   {
     "id": "B06XXTB7L2",
@@ -23829,7 +23856,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 987
+    "originalIndex": 988
   },
   {
     "id": "B083X758NX",
@@ -23856,7 +23883,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 988
+    "originalIndex": 989
   },
   {
     "id": "0140272496",
@@ -23877,7 +23904,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 989
+    "originalIndex": 990
   },
   {
     "id": "B01D8YDAYW",
@@ -23898,7 +23925,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 990
+    "originalIndex": 991
   },
   {
     "id": "B0082XN2IY",
@@ -23919,7 +23946,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 991
+    "originalIndex": 992
   },
   {
     "id": "B096N2GCW6",
@@ -23940,7 +23967,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 992
+    "originalIndex": 993
   },
   {
     "id": "0375761373",
@@ -23961,7 +23988,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 993
+    "originalIndex": 994
   },
   {
     "id": "B003AYZBM0",
@@ -23982,7 +24009,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 994
+    "originalIndex": 995
   },
   {
     "id": "B00ELPRLC0",
@@ -24015,7 +24042,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 995
+    "originalIndex": 996
   },
   {
     "id": "0140278168",
@@ -24036,7 +24063,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 996
+    "originalIndex": 997
   },
   {
     "id": "B005HHSYMW",
@@ -24081,7 +24108,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 55,
     "height": 384,
-    "originalIndex": 997
+    "originalIndex": 998
   },
   {
     "id": "B00KD5ZK48",
@@ -24144,7 +24171,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 88,
     "height": 384,
-    "originalIndex": 998
+    "originalIndex": 999
   },
   {
     "id": "1439148228",
@@ -24183,7 +24210,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 999
+    "originalIndex": 1000
   },
   {
     "id": "B09XBF3Q3S",
@@ -24204,7 +24231,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1000
+    "originalIndex": 1001
   },
   {
     "id": "0631236163",
@@ -24231,7 +24258,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1001
+    "originalIndex": 1002
   },
   {
     "id": "B008GWE5N2",
@@ -24252,7 +24279,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1002
+    "originalIndex": 1003
   },
   {
     "id": "B002XHNM5S",
@@ -24315,7 +24342,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 85,
     "height": 384,
-    "originalIndex": 1003
+    "originalIndex": 1004
   },
   {
     "id": "B00DH4VZG4",
@@ -24342,7 +24369,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1004
+    "originalIndex": 1005
   },
   {
     "id": "B00FBB6HYQ",
@@ -24363,7 +24390,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1005
+    "originalIndex": 1006
   },
   {
     "id": "B003GK22WA",
@@ -24384,7 +24411,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1006
+    "originalIndex": 1007
   },
   {
     "id": "9354893740",
@@ -24405,7 +24432,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1007
+    "originalIndex": 1008
   },
   {
     "id": "B00BKQ027Y",
@@ -24426,7 +24453,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1008
+    "originalIndex": 1009
   },
   {
     "id": "B09SYHTWWN",
@@ -24447,7 +24474,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1009
+    "originalIndex": 1010
   },
   {
     "id": "9389253632",
@@ -24468,7 +24495,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1010
+    "originalIndex": 1011
   },
   {
     "id": "B000JQUVMC",
@@ -24489,7 +24516,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1011
+    "originalIndex": 1012
   },
   {
     "id": "B00BKQ029C",
@@ -24510,7 +24537,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1012
+    "originalIndex": 1013
   },
   {
     "id": "0747563004",
@@ -24531,7 +24558,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1013
+    "originalIndex": 1014
   },
   {
     "id": "B08KJDSD62",
@@ -24552,7 +24579,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1014
+    "originalIndex": 1015
   },
   {
     "id": "1250234905",
@@ -24573,7 +24600,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1015
+    "originalIndex": 1016
   },
   {
     "id": "B0BRHBGKMJ",
@@ -24594,7 +24621,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1016
+    "originalIndex": 1017
   },
   {
     "id": "B07DV7R99B",
@@ -24615,7 +24642,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1017
+    "originalIndex": 1018
   },
   {
     "id": "B077QC7KJK",
@@ -24654,7 +24681,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1018
+    "originalIndex": 1019
   },
   {
     "id": "0865975329",
@@ -24681,7 +24708,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1019
+    "originalIndex": 1020
   },
   {
     "id": "B0FBS342D3",
@@ -24702,7 +24729,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1020
+    "originalIndex": 1021
   },
   {
     "id": "B07T3QRNLC",
@@ -24723,7 +24750,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1021
+    "originalIndex": 1022
   },
   {
     "id": "B01M33BP8B",
@@ -24792,7 +24819,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 94,
     "height": 384,
-    "originalIndex": 1022
+    "originalIndex": 1023
   },
   {
     "id": "8193600827",
@@ -24813,7 +24840,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1023
+    "originalIndex": 1024
   },
   {
     "id": "B07W5FQLDP",
@@ -24834,7 +24861,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1024
+    "originalIndex": 1025
   },
   {
     "id": "B008UX2L9W",
@@ -24855,7 +24882,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1025
+    "originalIndex": 1026
   },
   {
     "id": "B09JVTPT8K",
@@ -24876,7 +24903,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1026
+    "originalIndex": 1027
   },
   {
     "id": "B086XF436Z",
@@ -24897,7 +24924,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1027
+    "originalIndex": 1028
   },
   {
     "id": "0674979400",
@@ -24918,7 +24945,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1028
+    "originalIndex": 1029
   },
   {
     "id": "8178245558",
@@ -24939,7 +24966,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1029
+    "originalIndex": 1030
   },
   {
     "id": "8178246481",
@@ -24960,7 +24987,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1030
+    "originalIndex": 1031
   },
   {
     "id": "B07DFWYCRV",
@@ -24981,7 +25008,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1031
+    "originalIndex": 1032
   },
   {
     "id": "B003E2UQLO",
@@ -25020,7 +25047,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1032
+    "originalIndex": 1033
   },
   {
     "id": "1250827485",
@@ -25041,7 +25068,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1033
+    "originalIndex": 1034
   },
   {
     "id": "014026731X",
@@ -25062,7 +25089,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1034
+    "originalIndex": 1035
   },
   {
     "id": "B008CDS17G",
@@ -25089,7 +25116,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1035
+    "originalIndex": 1036
   },
   {
     "id": "B003719GL8",
@@ -25110,7 +25137,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1036
+    "originalIndex": 1037
   },
   {
     "id": "0735224897",
@@ -25137,7 +25164,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1037
+    "originalIndex": 1038
   },
   {
     "id": "B08LW5ZYV3",
@@ -25158,7 +25185,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1038
+    "originalIndex": 1039
   },
   {
     "id": "B06XCGFMD5",
@@ -25179,7 +25206,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1039
+    "originalIndex": 1040
   },
   {
     "id": "0195668960",
@@ -25200,7 +25227,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1040
+    "originalIndex": 1041
   },
   {
     "id": "1405294574",
@@ -25221,7 +25248,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1041
+    "originalIndex": 1042
   },
   {
     "id": "B006MOE1V2",
@@ -25242,7 +25269,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1042
+    "originalIndex": 1043
   },
   {
     "id": "B08HCNZKK5",
@@ -25263,7 +25290,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1043
+    "originalIndex": 1044
   },
   {
     "id": "B00JUS9CXE",
@@ -25284,7 +25311,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1044
+    "originalIndex": 1045
   },
   {
     "id": "B06XYDVKRS",
@@ -25305,7 +25332,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1045
+    "originalIndex": 1046
   },
   {
     "id": "9389253195",
@@ -25326,7 +25353,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1046
+    "originalIndex": 1047
   },
   {
     "id": "B00B3M3H3G",
@@ -25347,7 +25374,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1047
+    "originalIndex": 1048
   },
   {
     "id": "0141014083",
@@ -25368,7 +25395,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1048
+    "originalIndex": 1049
   },
   {
     "id": "1400064740",
@@ -25389,7 +25416,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1049
+    "originalIndex": 1050
   },
   {
     "id": "B000W94CZ8",
@@ -25410,7 +25437,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1050
+    "originalIndex": 1051
   },
   {
     "id": "B004HO5JEM",
@@ -25431,7 +25458,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1051
+    "originalIndex": 1052
   },
   {
     "id": "B072MK714L",
@@ -25464,7 +25491,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1052
+    "originalIndex": 1053
   },
   {
     "id": "B074MHHTZG",
@@ -25485,7 +25512,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1053
+    "originalIndex": 1054
   },
   {
     "id": "B007SGM0KW",
@@ -25506,7 +25533,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1054
+    "originalIndex": 1055
   },
   {
     "id": "B06XY1FLP6",
@@ -25533,7 +25560,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1055
+    "originalIndex": 1056
   },
   {
     "id": "B07RHM6W91",
@@ -25554,7 +25581,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1056
+    "originalIndex": 1057
   },
   {
     "id": "938868978X",
@@ -25575,7 +25602,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1057
+    "originalIndex": 1058
   },
   {
     "id": "B0BN2P475V",
@@ -25596,7 +25623,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1058
+    "originalIndex": 1059
   },
   {
     "id": "B0B5RM18NC",
@@ -25617,7 +25644,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1059
+    "originalIndex": 1060
   },
   {
     "id": "B000JVOJHK",
@@ -25638,7 +25665,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1060
+    "originalIndex": 1061
   },
   {
     "id": "B09NNG6KGB",
@@ -25677,7 +25704,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1061
+    "originalIndex": 1062
   },
   {
     "id": "B0031R5K8G",
@@ -25698,7 +25725,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1062
+    "originalIndex": 1063
   },
   {
     "id": "B001FSJ8PY",
@@ -25725,7 +25752,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1063
+    "originalIndex": 1064
   },
   {
     "id": "B01MQ6EGDX",
@@ -25788,7 +25815,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 88,
     "height": 384,
-    "originalIndex": 1064
+    "originalIndex": 1065
   },
   {
     "id": "0345409469",
@@ -25809,7 +25836,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1065
+    "originalIndex": 1066
   },
   {
     "id": "B06XCCZJ4L",
@@ -25830,7 +25857,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1066
+    "originalIndex": 1067
   },
   {
     "id": "B0756VNX8C",
@@ -25851,7 +25878,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1067
+    "originalIndex": 1068
   },
   {
     "id": "B0795BLS8D",
@@ -25878,7 +25905,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1068
+    "originalIndex": 1069
   },
   {
     "id": "B00GEHMWSQ",
@@ -25899,7 +25926,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1069
+    "originalIndex": 1070
   },
   {
     "id": "B002RI92ZC",
@@ -25920,7 +25947,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1070
+    "originalIndex": 1071
   },
   {
     "id": "B06XBY3XJV",
@@ -25941,7 +25968,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1071
+    "originalIndex": 1072
   },
   {
     "id": "B01LYV4SGL",
@@ -25962,7 +25989,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1072
+    "originalIndex": 1073
   },
   {
     "id": "B06XXSB1P9",
@@ -25995,7 +26022,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1073
+    "originalIndex": 1074
   },
   {
     "id": "B006OHAJHM",
@@ -26016,7 +26043,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1074
+    "originalIndex": 1075
   },
   {
     "id": "B00L5S4EA8",
@@ -26037,7 +26064,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1075
+    "originalIndex": 1076
   },
   {
     "id": "B07BFMJW18",
@@ -26058,7 +26085,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1076
+    "originalIndex": 1077
   },
   {
     "id": "B01ECE3LZU",
@@ -26079,7 +26106,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1077
+    "originalIndex": 1078
   },
   {
     "id": "B0753L4H6T",
@@ -26100,7 +26127,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1078
+    "originalIndex": 1079
   },
   {
     "id": "B09VBZPPYF",
@@ -26121,7 +26148,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1079
+    "originalIndex": 1080
   },
   {
     "id": "1107091500",
@@ -26142,7 +26169,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1080
+    "originalIndex": 1081
   },
   {
     "id": "0226041166",
@@ -26163,7 +26190,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1081
+    "originalIndex": 1082
   },
   {
     "id": "B0B9S21G28",
@@ -26184,7 +26211,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1082
+    "originalIndex": 1083
   },
   {
     "id": "B002XHNMVM",
@@ -26205,7 +26232,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1083
+    "originalIndex": 1084
   },
   {
     "id": "B077GZT9Q1",
@@ -26226,7 +26253,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1084
+    "originalIndex": 1085
   },
   {
     "id": "B06XXY6R4L",
@@ -26271,7 +26298,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 70,
     "height": 384,
-    "originalIndex": 1085
+    "originalIndex": 1086
   },
   {
     "id": "B004MPR80E",
@@ -26292,7 +26319,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1086
+    "originalIndex": 1087
   },
   {
     "id": "0674245962",
@@ -26313,7 +26340,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1087
+    "originalIndex": 1088
   },
   {
     "id": "B002RI92EI",
@@ -26358,7 +26385,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 70,
     "height": 384,
-    "originalIndex": 1088
+    "originalIndex": 1089
   },
   {
     "id": "9388070496",
@@ -26379,7 +26406,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1089
+    "originalIndex": 1090
   },
   {
     "id": "B004ZJNWCU",
@@ -26400,7 +26427,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1090
+    "originalIndex": 1091
   },
   {
     "id": "B07WJJFNMB",
@@ -26421,7 +26448,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1091
+    "originalIndex": 1092
   },
   {
     "id": "B00RP54L08",
@@ -26442,7 +26469,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1092
+    "originalIndex": 1093
   },
   {
     "id": "B077XH5MCF",
@@ -26463,7 +26490,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1093
+    "originalIndex": 1094
   },
   {
     "id": "B00S5LDWII",
@@ -26490,7 +26517,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1094
+    "originalIndex": 1095
   },
   {
     "id": "0691150699",
@@ -26541,7 +26568,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1095
+    "originalIndex": 1096
   },
   {
     "id": "B0096QYPCI",
@@ -26562,7 +26589,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1096
+    "originalIndex": 1097
   },
   {
     "id": "B004YB9HVY",
@@ -26583,7 +26610,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1097
+    "originalIndex": 1098
   },
   {
     "id": "B006OYD2K6",
@@ -26604,7 +26631,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1098
+    "originalIndex": 1099
   },
   {
     "id": "0226320669",
@@ -26637,7 +26664,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 55,
     "height": 384,
-    "originalIndex": 1099
+    "originalIndex": 1100
   },
   {
     "id": "B08BBYKWCP",
@@ -26658,7 +26685,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1100
+    "originalIndex": 1101
   },
   {
     "id": "B07CVLG8C1",
@@ -26679,7 +26706,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1101
+    "originalIndex": 1102
   },
   {
     "id": "B08KSCJ45R",
@@ -26700,7 +26727,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1102
+    "originalIndex": 1103
   },
   {
     "id": "0393081087",
@@ -26721,7 +26748,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1103
+    "originalIndex": 1104
   },
   {
     "id": "9352777514",
@@ -26742,7 +26769,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1104
+    "originalIndex": 1105
   },
   {
     "id": "0060936428",
@@ -26763,7 +26790,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1105
+    "originalIndex": 1106
   },
   {
     "id": "B08KXQ899B",
@@ -26784,7 +26811,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1106
+    "originalIndex": 1107
   },
   {
     "id": "B09HHL74Q9",
@@ -26805,7 +26832,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1107
+    "originalIndex": 1108
   },
   {
     "id": "939064416X",
@@ -26826,7 +26853,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1108
+    "originalIndex": 1109
   },
   {
     "id": "B06XCG654F",
@@ -26847,7 +26874,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1109
+    "originalIndex": 1110
   },
   {
     "id": "0241339057",
@@ -26868,7 +26895,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1110
+    "originalIndex": 1111
   },
   {
     "id": "B00BKQ02TM",
@@ -26901,7 +26928,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1111
+    "originalIndex": 1112
   },
   {
     "id": "B08463QG7R",
@@ -26922,7 +26949,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1112
+    "originalIndex": 1113
   },
   {
     "id": "B07FYPQ77K",
@@ -26973,7 +27000,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 73,
     "height": 384,
-    "originalIndex": 1113
+    "originalIndex": 1114
   },
   {
     "id": "B0182GW2J0",
@@ -26994,7 +27021,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1114
+    "originalIndex": 1115
   },
   {
     "id": "B00UDCNMI2",
@@ -27015,7 +27042,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1115
+    "originalIndex": 1116
   },
   {
     "id": "0700616241",
@@ -27036,7 +27063,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1116
+    "originalIndex": 1117
   },
   {
     "id": "B01AI731TG",
@@ -27057,7 +27084,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1117
+    "originalIndex": 1118
   },
   {
     "id": "B0811YP777",
@@ -27078,7 +27105,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1118
+    "originalIndex": 1119
   },
   {
     "id": "B06XY1ZVJB",
@@ -27099,7 +27126,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1119
+    "originalIndex": 1120
   },
   {
     "id": "B06XY2SP5R",
@@ -27120,7 +27147,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1120
+    "originalIndex": 1121
   },
   {
     "id": "B001GJ19F4",
@@ -27141,7 +27168,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1121
+    "originalIndex": 1122
   },
   {
     "id": "B00PFBTM12",
@@ -27168,7 +27195,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1122
+    "originalIndex": 1123
   },
   {
     "id": "B06XXN1812",
@@ -27189,7 +27216,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1123
+    "originalIndex": 1124
   },
   {
     "id": "B004S7BBQI",
@@ -27210,7 +27237,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1124
+    "originalIndex": 1125
   },
   {
     "id": "B079ZVQT2H",
@@ -27243,7 +27270,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1125
+    "originalIndex": 1126
   },
   {
     "id": "B003D87Q4O",
@@ -27264,7 +27291,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1126
+    "originalIndex": 1127
   },
   {
     "id": "B0746KP8FG",
@@ -27285,7 +27312,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1127
+    "originalIndex": 1128
   },
   {
     "id": "B004M8S44K",
@@ -27306,7 +27333,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1128
+    "originalIndex": 1129
   },
   {
     "id": "B002RI9X8S",
@@ -27327,7 +27354,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1129
+    "originalIndex": 1130
   },
   {
     "id": "B00A3BO7BO",
@@ -27348,7 +27375,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1130
+    "originalIndex": 1131
   },
   {
     "id": "0142400580",
@@ -27369,7 +27396,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1131
+    "originalIndex": 1132
   },
   {
     "id": "B07PN4HDH6",
@@ -27390,7 +27417,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1132
+    "originalIndex": 1133
   },
   {
     "id": "0691165629",
@@ -27411,7 +27438,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1133
+    "originalIndex": 1134
   },
   {
     "id": "B000FC0PDA",
@@ -27444,7 +27471,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1134
+    "originalIndex": 1135
   },
   {
     "id": "B07W4CP31B",
@@ -27471,7 +27498,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1135
+    "originalIndex": 1136
   },
   {
     "id": "B08K3MKZQ7",
@@ -27492,7 +27519,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1136
+    "originalIndex": 1137
   },
   {
     "id": "B01DIVGLUK",
@@ -27513,7 +27540,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1137
+    "originalIndex": 1138
   },
   {
     "id": "B008KYWJNE",
@@ -27540,7 +27567,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1138
+    "originalIndex": 1139
   },
   {
     "id": "B08CXVFWZZ",
@@ -27561,7 +27588,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1139
+    "originalIndex": 1140
   },
   {
     "id": "B07KJJ4NNC",
@@ -27582,7 +27609,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1140
+    "originalIndex": 1141
   },
   {
     "id": "B00DQ845EA",
@@ -27603,7 +27630,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1141
+    "originalIndex": 1142
   },
   {
     "id": "1981234276",
@@ -27624,7 +27651,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1142
+    "originalIndex": 1143
   },
   {
     "id": "B00PIOMGWI",
@@ -27657,7 +27684,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1143
+    "originalIndex": 1144
   },
   {
     "id": "B06XXYZZJ4",
@@ -27684,7 +27711,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1144
+    "originalIndex": 1145
   },
   {
     "id": "B0785Q1CWJ",
@@ -27705,7 +27732,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1145
+    "originalIndex": 1146
   },
   {
     "id": "B0189YW06U",
@@ -27732,7 +27759,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1146
+    "originalIndex": 1147
   },
   {
     "id": "B00F01IN6M",
@@ -27753,7 +27780,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1147
+    "originalIndex": 1148
   },
   {
     "id": "B002RI9ZTK",
@@ -27780,7 +27807,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1148
+    "originalIndex": 1149
   },
   {
     "id": "0233985638",
@@ -27801,7 +27828,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1149
+    "originalIndex": 1150
   },
   {
     "id": "1509808310",
@@ -27828,7 +27855,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1150
+    "originalIndex": 1151
   },
   {
     "id": "B002RI9ZY0",
@@ -27849,7 +27876,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1151
+    "originalIndex": 1152
   },
   {
     "id": "B0084ANSES",
@@ -27870,7 +27897,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1152
+    "originalIndex": 1153
   },
   {
     "id": "B001FWYYOK",
@@ -27903,7 +27930,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1153
+    "originalIndex": 1154
   },
   {
     "id": "B01LZEPFWK",
@@ -27924,7 +27951,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1154
+    "originalIndex": 1155
   },
   {
     "id": "0143032461",
@@ -27957,7 +27984,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1155
+    "originalIndex": 1156
   },
   {
     "id": "B07LFLKMV4",
@@ -27978,7 +28005,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1156
+    "originalIndex": 1157
   },
   {
     "id": "B07VN4J15X",
@@ -27999,7 +28026,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1157
+    "originalIndex": 1158
   },
   {
     "id": "0674007263",
@@ -28020,7 +28047,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1158
+    "originalIndex": 1159
   },
   {
     "id": "B009B1H7QO",
@@ -28041,7 +28068,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1159
+    "originalIndex": 1160
   },
   {
     "id": "9353450624",
@@ -28062,7 +28089,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1160
+    "originalIndex": 1161
   },
   {
     "id": "0198075383",
@@ -28083,7 +28110,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1161
+    "originalIndex": 1162
   },
   {
     "id": "0195649591",
@@ -28104,7 +28131,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1162
+    "originalIndex": 1163
   },
   {
     "id": "B01M35WJWO",
@@ -28125,7 +28152,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1163
+    "originalIndex": 1164
   },
   {
     "id": "8182474337",
@@ -28146,7 +28173,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1164
+    "originalIndex": 1165
   },
   {
     "id": "B07CV4YHWQ",
@@ -28167,7 +28194,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1165
+    "originalIndex": 1166
   },
   {
     "id": "B06XY3ZVYG",
@@ -28188,7 +28215,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1166
+    "originalIndex": 1167
   },
   {
     "id": "B00E257S86",
@@ -28209,7 +28236,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1167
+    "originalIndex": 1168
   },
   {
     "id": "B0C9JSTM33",
@@ -28230,7 +28257,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1168
+    "originalIndex": 1169
   },
   {
     "id": "B06XY258T5",
@@ -28251,7 +28278,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1169
+    "originalIndex": 1170
   },
   {
     "id": "B008J4RONU",
@@ -28284,7 +28311,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1170
+    "originalIndex": 1171
   },
   {
     "id": "B000FC12C8",
@@ -28305,7 +28332,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1171
+    "originalIndex": 1172
   },
   {
     "id": "B00E2RWQ5E",
@@ -28326,7 +28353,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1172
+    "originalIndex": 1173
   },
   {
     "id": "B08LCWJH55",
@@ -28353,7 +28380,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1173
+    "originalIndex": 1174
   },
   {
     "id": "9351776425",
@@ -28374,7 +28401,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1174
+    "originalIndex": 1175
   },
   {
     "id": "B0728MXM3Q",
@@ -28395,7 +28422,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1175
+    "originalIndex": 1176
   },
   {
     "id": "B06XYQ82PB",
@@ -28416,7 +28443,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1176
+    "originalIndex": 1177
   },
   {
     "id": "B01CIN64DS",
@@ -28437,7 +28464,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1177
+    "originalIndex": 1178
   },
   {
     "id": "B000FC12GO",
@@ -28458,7 +28485,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1178
+    "originalIndex": 1179
   },
   {
     "id": "B00IBZRO2S",
@@ -28479,7 +28506,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1179
+    "originalIndex": 1180
   },
   {
     "id": "B002RI9DJW",
@@ -28500,7 +28527,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1180
+    "originalIndex": 1181
   },
   {
     "id": "B002V0924C",
@@ -28521,7 +28548,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1181
+    "originalIndex": 1182
   },
   {
     "id": "B07CVK7FZZ",
@@ -28542,7 +28569,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1182
+    "originalIndex": 1183
   },
   {
     "id": "B06XYQ2CFM",
@@ -28563,7 +28590,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1183
+    "originalIndex": 1184
   },
   {
     "id": "B009S7WC5C",
@@ -28584,7 +28611,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1184
+    "originalIndex": 1185
   },
   {
     "id": "B071R9JQJ5",
@@ -28605,7 +28632,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1185
+    "originalIndex": 1186
   },
   {
     "id": "B00B0XL6TA",
@@ -28626,7 +28653,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1186
+    "originalIndex": 1187
   },
   {
     "id": "B005PR422K",
@@ -28647,7 +28674,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1187
+    "originalIndex": 1188
   },
   {
     "id": "B01NCU4VNT",
@@ -28668,7 +28695,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1188
+    "originalIndex": 1189
   },
   {
     "id": "B0B721VSCT",
@@ -28689,7 +28716,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1189
+    "originalIndex": 1190
   },
   {
     "id": "B008GUIEYU",
@@ -28716,7 +28743,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1190
+    "originalIndex": 1191
   },
   {
     "id": "B00LD1OSTY",
@@ -28737,7 +28764,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1191
+    "originalIndex": 1192
   },
   {
     "id": "1476752893",
@@ -28758,7 +28785,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1192
+    "originalIndex": 1193
   },
   {
     "id": "B0B5LKYKH8",
@@ -28785,7 +28812,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1193
+    "originalIndex": 1194
   },
   {
     "id": "B004TQVKKK",
@@ -28806,7 +28833,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1194
+    "originalIndex": 1195
   },
   {
     "id": "B07NQ3JTJ2",
@@ -28827,7 +28854,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1195
+    "originalIndex": 1196
   },
   {
     "id": "B08WRHBXGN",
@@ -28848,7 +28875,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1196
+    "originalIndex": 1197
   },
   {
     "id": "B004H1T806",
@@ -28869,7 +28896,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1197
+    "originalIndex": 1198
   },
   {
     "id": "B006FT86D8",
@@ -28890,7 +28917,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1198
+    "originalIndex": 1199
   },
   {
     "id": "B00DMKS0WU",
@@ -28911,7 +28938,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1199
+    "originalIndex": 1200
   },
   {
     "id": "1614277435",
@@ -28932,7 +28959,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1200
+    "originalIndex": 1201
   },
   {
     "id": "B097S3RBQP",
@@ -28953,7 +28980,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1201
+    "originalIndex": 1202
   },
   {
     "id": "B004ASOVWQ",
@@ -28974,7 +29001,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1202
+    "originalIndex": 1203
   },
   {
     "id": "B00OC0YPBE",
@@ -29007,7 +29034,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1203
+    "originalIndex": 1204
   },
   {
     "id": "B002RI9176",
@@ -29040,7 +29067,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1204
+    "originalIndex": 1205
   },
   {
     "id": "B079MH7ZB4",
@@ -29061,7 +29088,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1205
+    "originalIndex": 1206
   },
   {
     "id": "B07QLY4562",
@@ -29142,7 +29169,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 73,
     "height": 384,
-    "originalIndex": 1206
+    "originalIndex": 1207
   },
   {
     "id": "B07S957YZV",
@@ -29163,7 +29190,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1207
+    "originalIndex": 1208
   },
   {
     "id": "B07DGBW687",
@@ -29184,7 +29211,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1208
+    "originalIndex": 1209
   },
   {
     "id": "B004KKX6LQ",
@@ -29205,7 +29232,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1209
+    "originalIndex": 1210
   },
   {
     "id": "1405296976",
@@ -29226,7 +29253,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1210
+    "originalIndex": 1211
   },
   {
     "id": "B07CPLTCQ7",
@@ -29247,7 +29274,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1211
+    "originalIndex": 1212
   },
   {
     "id": "B06XY9RRPK",
@@ -29268,7 +29295,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1212
+    "originalIndex": 1213
   },
   {
     "id": "8123722028",
@@ -29301,7 +29328,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1213
+    "originalIndex": 1214
   },
   {
     "id": "B0080KB7YK",
@@ -29322,7 +29349,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1214
+    "originalIndex": 1215
   },
   {
     "id": "0747260974",
@@ -29343,7 +29370,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1215
+    "originalIndex": 1216
   },
   {
     "id": "B00P6TZFT6",
@@ -29370,7 +29397,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1216
+    "originalIndex": 1217
   },
   {
     "id": "0312280440",
@@ -29391,7 +29418,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1217
+    "originalIndex": 1218
   },
   {
     "id": "1851686169",
@@ -29412,7 +29439,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1218
+    "originalIndex": 1219
   },
   {
     "id": "B095176V6Y",
@@ -29469,7 +29496,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 82,
     "height": 384,
-    "originalIndex": 1219
+    "originalIndex": 1220
   },
   {
     "id": "B09BP1LKRM",
@@ -29490,7 +29517,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1220
+    "originalIndex": 1221
   },
   {
     "id": "9384092711",
@@ -29511,7 +29538,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1221
+    "originalIndex": 1222
   },
   {
     "id": "B01BS9N6PC",
@@ -29532,7 +29559,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1222
+    "originalIndex": 1223
   },
   {
     "id": "B00OHU5ILK",
@@ -29553,7 +29580,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1223
+    "originalIndex": 1224
   },
   {
     "id": "B07H28GT6W",
@@ -29574,7 +29601,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1224
+    "originalIndex": 1225
   },
   {
     "id": "B09NMD6H5K",
@@ -29595,7 +29622,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1225
+    "originalIndex": 1226
   },
   {
     "id": "B00486U8N6",
@@ -29622,7 +29649,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1226
+    "originalIndex": 1227
   },
   {
     "id": "B00LDR38LC",
@@ -29649,7 +29676,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1227
+    "originalIndex": 1228
   },
   {
     "id": "B00317G7HE",
@@ -29670,7 +29697,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1228
+    "originalIndex": 1229
   },
   {
     "id": "B07DGG4V9F",
@@ -29691,7 +29718,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1229
+    "originalIndex": 1230
   },
   {
     "id": "B00KCRP8XK",
@@ -29712,7 +29739,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1230
+    "originalIndex": 1231
   },
   {
     "id": "B00N9AVN3Q",
@@ -29733,7 +29760,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1231
+    "originalIndex": 1232
   },
   {
     "id": "0704342006",
@@ -29754,7 +29781,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1232
+    "originalIndex": 1233
   },
   {
     "id": "B07GZHDSHZ",
@@ -29775,7 +29802,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1233
+    "originalIndex": 1234
   },
   {
     "id": "B01LXMF13T",
@@ -29796,7 +29823,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1234
+    "originalIndex": 1235
   },
   {
     "id": "B004FV4XTE",
@@ -29823,7 +29850,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1235
+    "originalIndex": 1236
   },
   {
     "id": "0525564454",
@@ -29844,7 +29871,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1236
+    "originalIndex": 1237
   },
   {
     "id": "B0BMLT9LZH",
@@ -29865,7 +29892,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1237
+    "originalIndex": 1238
   },
   {
     "id": "B06XY2267B",
@@ -29886,7 +29913,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1238
+    "originalIndex": 1239
   },
   {
     "id": "B07NYYM4BF",
@@ -29907,7 +29934,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1239
+    "originalIndex": 1240
   },
   {
     "id": "B092H1Y8PL",
@@ -29928,7 +29955,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1240
+    "originalIndex": 1241
   },
   {
     "id": "B000QTEA4C",
@@ -29955,7 +29982,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1241
+    "originalIndex": 1242
   },
   {
     "id": "140003356X",
@@ -29976,7 +30003,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1242
+    "originalIndex": 1243
   },
   {
     "id": "B0BRD91YNF",
@@ -29997,7 +30024,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1243
+    "originalIndex": 1244
   },
   {
     "id": "B015VXKM44",
@@ -30018,7 +30045,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1244
+    "originalIndex": 1245
   },
   {
     "id": "0802135064",
@@ -30063,7 +30090,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 67,
     "height": 384,
-    "originalIndex": 1245
+    "originalIndex": 1246
   },
   {
     "id": "6257959454",
@@ -30084,7 +30111,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1246
+    "originalIndex": 1247
   },
   {
     "id": "0060529709",
@@ -30105,7 +30132,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1247
+    "originalIndex": 1248
   },
   {
     "id": "1439101655",
@@ -30162,7 +30189,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 82,
     "height": 384,
-    "originalIndex": 1248
+    "originalIndex": 1249
   },
   {
     "id": "B09HHJTDN7",
@@ -30183,7 +30210,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1249
+    "originalIndex": 1250
   },
   {
     "id": "B01C6D0LCK",
@@ -30228,7 +30255,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 55,
     "height": 384,
-    "originalIndex": 1250
+    "originalIndex": 1251
   },
   {
     "id": "B00OXRLR3A",
@@ -30267,7 +30294,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1251
+    "originalIndex": 1252
   },
   {
     "id": "B06XKNHGN1",
@@ -30300,7 +30327,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1252
+    "originalIndex": 1253
   },
   {
     "id": "0374523878",
@@ -30321,7 +30348,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1253
+    "originalIndex": 1254
   },
   {
     "id": "B01LPRS1K2",
@@ -30348,7 +30375,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1254
+    "originalIndex": 1255
   },
   {
     "id": "B01N0PZ35J",
@@ -30369,7 +30396,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1255
+    "originalIndex": 1256
   },
   {
     "id": "8174364048",
@@ -30390,7 +30417,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1256
+    "originalIndex": 1257
   },
   {
     "id": "8120803868",
@@ -30411,7 +30438,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1257
+    "originalIndex": 1258
   },
   {
     "id": "B004Y5460W",
@@ -30468,7 +30495,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 82,
     "height": 384,
-    "originalIndex": 1258
+    "originalIndex": 1259
   },
   {
     "id": "B002VNFNY2",
@@ -30489,7 +30516,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1259
+    "originalIndex": 1260
   },
   {
     "id": "B06XXGZ8FJ",
@@ -30510,7 +30537,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1260
+    "originalIndex": 1261
   },
   {
     "id": "B06XXS79W9",
@@ -30531,7 +30558,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1261
+    "originalIndex": 1262
   },
   {
     "id": "0198787332",
@@ -30552,7 +30579,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1262
+    "originalIndex": 1263
   },
   {
     "id": "B07J9VHB2V",
@@ -30573,7 +30600,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1263
+    "originalIndex": 1264
   },
   {
     "id": "0312363141",
@@ -30594,7 +30621,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1264
+    "originalIndex": 1265
   },
   {
     "id": "031236315X",
@@ -30615,7 +30642,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1265
+    "originalIndex": 1266
   },
   {
     "id": "0312361750",
@@ -30636,7 +30663,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1266
+    "originalIndex": 1267
   },
   {
     "id": "1503634752",
@@ -30657,7 +30684,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1267
+    "originalIndex": 1268
   },
   {
     "id": "B00CXLKFJ0",
@@ -30678,7 +30705,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1268
+    "originalIndex": 1269
   },
   {
     "id": "0852552734",
@@ -30717,7 +30744,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1269
+    "originalIndex": 1270
   },
   {
     "id": "B09QF1ZCT2",
@@ -30738,7 +30765,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1270
+    "originalIndex": 1271
   },
   {
     "id": "B09X78NSPW",
@@ -30759,7 +30786,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1271
+    "originalIndex": 1272
   },
   {
     "id": "0140421254",
@@ -30780,7 +30807,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1272
+    "originalIndex": 1273
   },
   {
     "id": "B005WNGFRW",
@@ -30801,7 +30828,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1273
+    "originalIndex": 1274
   },
   {
     "id": "B004GB1T18",
@@ -30822,7 +30849,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1274
+    "originalIndex": 1275
   },
   {
     "id": "B004TRQA8Q",
@@ -30843,7 +30870,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1275
+    "originalIndex": 1276
   },
   {
     "id": "B01FJVDRWC",
@@ -30870,7 +30897,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1276
+    "originalIndex": 1277
   },
   {
     "id": "0330343637",
@@ -30891,7 +30918,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1277
+    "originalIndex": 1278
   },
   {
     "id": "B002RI97V6",
@@ -30912,7 +30939,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1278
+    "originalIndex": 1279
   },
   {
     "id": "B00EMLDM8K",
@@ -30933,7 +30960,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1279
+    "originalIndex": 1280
   },
   {
     "id": "B09LSQC49Y",
@@ -30954,7 +30981,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1280
+    "originalIndex": 1281
   },
   {
     "id": "B09S3VHGB7",
@@ -30975,7 +31002,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1281
+    "originalIndex": 1282
   },
   {
     "id": "B001B152E6",
@@ -30996,7 +31023,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1282
+    "originalIndex": 1283
   },
   {
     "id": "0394720245",
@@ -31077,7 +31104,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 106,
     "height": 384,
-    "originalIndex": 1283
+    "originalIndex": 1284
   },
   {
     "id": "B01EB74DFU",
@@ -31098,7 +31125,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1284
+    "originalIndex": 1285
   },
   {
     "id": "1859842062",
@@ -31119,7 +31146,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1285
+    "originalIndex": 1286
   },
   {
     "id": "B00AG8FZ1K",
@@ -31140,7 +31167,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1286
+    "originalIndex": 1287
   },
   {
     "id": "935287370X",
@@ -31161,7 +31188,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1287
+    "originalIndex": 1288
   },
   {
     "id": "024133926X",
@@ -31182,7 +31209,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1288
+    "originalIndex": 1289
   },
   {
     "id": "9354895328",
@@ -31203,7 +31230,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1289
+    "originalIndex": 1290
   },
   {
     "id": "1316635244",
@@ -31224,7 +31251,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1290
+    "originalIndex": 1291
   },
   {
     "id": "B07BMZVVB5",
@@ -31245,7 +31272,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1291
+    "originalIndex": 1292
   },
   {
     "id": "B08FHZ5L47",
@@ -31266,7 +31293,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1292
+    "originalIndex": 1293
   },
   {
     "id": "8170021219",
@@ -31287,7 +31314,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1293
+    "originalIndex": 1294
   },
   {
     "id": "B07HCKX8SY",
@@ -31308,7 +31335,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1294
+    "originalIndex": 1295
   },
   {
     "id": "8124608350",
@@ -31329,7 +31356,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1295
+    "originalIndex": 1296
   },
   {
     "id": "B003ODI67E",
@@ -31350,7 +31377,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1296
+    "originalIndex": 1297
   },
   {
     "id": "B0BCX2LH2W",
@@ -31371,7 +31398,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1297
+    "originalIndex": 1298
   },
   {
     "id": "B002RI9YE6",
@@ -31392,7 +31419,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1298
+    "originalIndex": 1299
   },
   {
     "id": "B09MZJVBQX",
@@ -31413,7 +31440,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1299
+    "originalIndex": 1300
   },
   {
     "id": "B07J2V3PG4",
@@ -31440,7 +31467,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1300
+    "originalIndex": 1301
   },
   {
     "id": "B07QX448KF",
@@ -31461,7 +31488,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1301
+    "originalIndex": 1302
   },
   {
     "id": "B092QZHWD4",
@@ -31482,7 +31509,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1302
+    "originalIndex": 1303
   },
   {
     "id": "B074DP83C3",
@@ -31503,7 +31530,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1303
+    "originalIndex": 1304
   },
   {
     "id": "B07XD76H41",
@@ -31524,7 +31551,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1304
+    "originalIndex": 1305
   },
   {
     "id": "B008J33GLK",
@@ -31551,7 +31578,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1305
+    "originalIndex": 1306
   },
   {
     "id": "1138301302",
@@ -31584,7 +31611,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1306
+    "originalIndex": 1307
   },
   {
     "id": "B07JLSHT7M",
@@ -31617,7 +31644,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1307
+    "originalIndex": 1308
   },
   {
     "id": "B074GB7B8C",
@@ -31638,7 +31665,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1308
+    "originalIndex": 1309
   },
   {
     "id": "B00B5EFU4G",
@@ -31659,7 +31686,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1309
+    "originalIndex": 1310
   },
   {
     "id": "1859737323",
@@ -31680,7 +31707,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1310
+    "originalIndex": 1311
   },
   {
     "id": "932200830X",
@@ -31701,7 +31728,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1311
+    "originalIndex": 1312
   },
   {
     "id": "B015MQS1Y8",
@@ -31722,7 +31749,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1312
+    "originalIndex": 1313
   },
   {
     "id": "B004DNWMBA",
@@ -31743,7 +31770,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1313
+    "originalIndex": 1314
   },
   {
     "id": "8191013401",
@@ -31764,7 +31791,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1314
+    "originalIndex": 1315
   },
   {
     "id": "B0189YW04M",
@@ -31785,7 +31812,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1315
+    "originalIndex": 1316
   },
   {
     "id": "B00PFWH4AC",
@@ -31806,7 +31833,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1316
+    "originalIndex": 1317
   },
   {
     "id": "B00HS2NOCO",
@@ -31839,7 +31866,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1317
+    "originalIndex": 1318
   },
   {
     "id": "B0G2FGLDCQ",
@@ -31860,7 +31887,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1318
+    "originalIndex": 1319
   },
   {
     "id": "B01GI5F2FS",
@@ -31893,7 +31920,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1319
+    "originalIndex": 1320
   },
   {
     "id": "B005E87GLY",
@@ -31914,7 +31941,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1320
+    "originalIndex": 1321
   },
   {
     "id": "B00OG4EAU2",
@@ -31947,7 +31974,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1321
+    "originalIndex": 1322
   },
   {
     "id": "B06XGK8BTD",
@@ -31968,7 +31995,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1322
+    "originalIndex": 1323
   },
   {
     "id": "B06XXLW8LM",
@@ -31989,7 +32016,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1323
+    "originalIndex": 1324
   },
   {
     "id": "B004GKMHOM",
@@ -32010,7 +32037,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1324
+    "originalIndex": 1325
   },
   {
     "id": "B002U3CBPW",
@@ -32031,7 +32058,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1325
+    "originalIndex": 1326
   },
   {
     "id": "B08MV7W1CF",
@@ -32052,7 +32079,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1326
+    "originalIndex": 1327
   },
   {
     "id": "B099K1YT3D",
@@ -32097,7 +32124,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 70,
     "height": 384,
-    "originalIndex": 1327
+    "originalIndex": 1328
   },
   {
     "id": "0674975731",
@@ -32118,7 +32145,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1328
+    "originalIndex": 1329
   },
   {
     "id": "B000QCSA7C",
@@ -32139,7 +32166,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1329
+    "originalIndex": 1330
   },
   {
     "id": "B00AKE1PRS",
@@ -32166,7 +32193,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1330
+    "originalIndex": 1331
   },
   {
     "id": "8121507499",
@@ -32187,7 +32214,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1331
+    "originalIndex": 1332
   },
   {
     "id": "B005FPWUSA",
@@ -32208,7 +32235,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1332
+    "originalIndex": 1333
   },
   {
     "id": "B007IVBRWY",
@@ -32229,7 +32256,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1333
+    "originalIndex": 1334
   },
   {
     "id": "B00J90C04G",
@@ -32250,7 +32277,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1334
+    "originalIndex": 1335
   },
   {
     "id": "0714847038",
@@ -32271,7 +32298,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1335
+    "originalIndex": 1336
   },
   {
     "id": "B018TVAAII",
@@ -32292,7 +32319,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1336
+    "originalIndex": 1337
   },
   {
     "id": "B08269G42L",
@@ -32319,7 +32346,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1337
+    "originalIndex": 1338
   },
   {
     "id": "8183285244",
@@ -32340,7 +32367,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1338
+    "originalIndex": 1339
   },
   {
     "id": "B09NZC5LR3",
@@ -32361,7 +32388,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1339
+    "originalIndex": 1340
   },
   {
     "id": "0393283739",
@@ -32382,7 +32409,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1340
+    "originalIndex": 1341
   },
   {
     "id": "B01JMTOELU",
@@ -32403,7 +32430,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1341
+    "originalIndex": 1342
   },
   {
     "id": "B07D1SMPZ7",
@@ -32424,7 +32451,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1342
+    "originalIndex": 1343
   },
   {
     "id": "0195653211",
@@ -32445,7 +32472,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1343
+    "originalIndex": 1344
   },
   {
     "id": "9390679559",
@@ -32466,7 +32493,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1344
+    "originalIndex": 1345
   },
   {
     "id": "B008M7RXXA",
@@ -32487,7 +32514,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1345
+    "originalIndex": 1346
   },
   {
     "id": "B004GKMHJW",
@@ -32508,7 +32535,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1346
+    "originalIndex": 1347
   },
   {
     "id": "B004UOAJ76",
@@ -32559,7 +32586,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 73,
     "height": 384,
-    "originalIndex": 1347
+    "originalIndex": 1348
   },
   {
     "id": "B07NDNRJZ6",
@@ -32586,7 +32613,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1348
+    "originalIndex": 1349
   },
   {
     "id": "B07BH34X3S",
@@ -32607,7 +32634,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1349
+    "originalIndex": 1350
   },
   {
     "id": "B00BSBX9TE",
@@ -32628,7 +32655,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1350
+    "originalIndex": 1351
   },
   {
     "id": "B07S1RRCHZ",
@@ -32691,7 +32718,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 88,
     "height": 384,
-    "originalIndex": 1351
+    "originalIndex": 1352
   },
   {
     "id": "1944424466",
@@ -32712,7 +32739,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1352
+    "originalIndex": 1353
   },
   {
     "id": "B00S8FCJCQ",
@@ -32733,7 +32760,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1353
+    "originalIndex": 1354
   },
   {
     "id": "B07S5D5TH7",
@@ -32760,7 +32787,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1354
+    "originalIndex": 1355
   },
   {
     "id": "0195045645",
@@ -32781,7 +32808,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1355
+    "originalIndex": 1356
   },
   {
     "id": "B073WQTZ4T",
@@ -32802,7 +32829,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1356
+    "originalIndex": 1357
   },
   {
     "id": "B015Q3VB8U",
@@ -32823,7 +32850,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1357
+    "originalIndex": 1358
   },
   {
     "id": "B07N8L7V8X",
@@ -32844,7 +32871,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1358
+    "originalIndex": 1359
   },
   {
     "id": "0195623142",
@@ -32865,7 +32892,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1359
+    "originalIndex": 1360
   },
   {
     "id": "B07QTZ1Q8K",
@@ -32898,7 +32925,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1360
+    "originalIndex": 1361
   },
   {
     "id": "B0BGJL2SDP",
@@ -32919,7 +32946,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1361
+    "originalIndex": 1362
   },
   {
     "id": "B01MQWUBWC",
@@ -32940,7 +32967,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1362
+    "originalIndex": 1363
   },
   {
     "id": "B000FBJCLW",
@@ -32961,7 +32988,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1363
+    "originalIndex": 1364
   },
   {
     "id": "B0056458W0",
@@ -32982,7 +33009,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1364
+    "originalIndex": 1365
   },
   {
     "id": "B06XKX24R5",
@@ -33003,7 +33030,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1365
+    "originalIndex": 1366
   },
   {
     "id": "B084TFF6D3",
@@ -33024,7 +33051,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1366
+    "originalIndex": 1367
   },
   {
     "id": "B07DP1387P",
@@ -33045,7 +33072,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1367
+    "originalIndex": 1368
   },
   {
     "id": "B075NLB4P7",
@@ -33066,7 +33093,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1368
+    "originalIndex": 1369
   },
   {
     "id": "069109389X",
@@ -33093,7 +33120,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1369
+    "originalIndex": 1370
   },
   {
     "id": "B08KFNMX29",
@@ -33120,7 +33147,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1370
+    "originalIndex": 1371
   },
   {
     "id": "B002RI9YCI",
@@ -33141,7 +33168,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1371
+    "originalIndex": 1372
   },
   {
     "id": "B002RI9Y50",
@@ -33162,7 +33189,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1372
+    "originalIndex": 1373
   },
   {
     "id": "0451217322",
@@ -33183,7 +33210,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1373
+    "originalIndex": 1374
   },
   {
     "id": "1846276039",
@@ -33204,7 +33231,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1374
+    "originalIndex": 1375
   },
   {
     "id": "B07PMBPNGJ",
@@ -33225,7 +33252,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1375
+    "originalIndex": 1376
   },
   {
     "id": "0099731010",
@@ -33246,7 +33273,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1376
+    "originalIndex": 1377
   },
   {
     "id": "B00CI3M8U2",
@@ -33267,7 +33294,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1377
+    "originalIndex": 1378
   },
   {
     "id": "B004GKMU3A",
@@ -33294,7 +33321,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1378
+    "originalIndex": 1379
   },
   {
     "id": "0141180315",
@@ -33315,7 +33342,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1379
+    "originalIndex": 1380
   },
   {
     "id": "B07DQ7YQSD",
@@ -33336,7 +33363,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1380
+    "originalIndex": 1381
   },
   {
     "id": "B078YSYQ6K",
@@ -33369,7 +33396,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1381
+    "originalIndex": 1382
   },
   {
     "id": "0520260090",
@@ -33390,7 +33417,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1383
+    "originalIndex": 1384
   },
   {
     "id": "B072HMBLSM",
@@ -33411,7 +33438,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1384
+    "originalIndex": 1385
   },
   {
     "id": "B000QJLQXU",
@@ -33432,7 +33459,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1385
+    "originalIndex": 1386
   },
   {
     "id": "B0FDBC83ZC",
@@ -33453,7 +33480,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1386
+    "originalIndex": 1387
   },
   {
     "id": "B00JUS99HS",
@@ -33474,7 +33501,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1387
+    "originalIndex": 1388
   },
   {
     "id": "B000FC0Y6S",
@@ -33513,7 +33540,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1388
+    "originalIndex": 1389
   },
   {
     "id": "1408127563",
@@ -33540,7 +33567,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1389
+    "originalIndex": 1390
   },
   {
     "id": "B0BCG68PXS",
@@ -33561,7 +33588,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1390
+    "originalIndex": 1391
   },
   {
     "id": "B07Y5R7CH8",
@@ -33582,7 +33609,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1391
+    "originalIndex": 1392
   },
   {
     "id": "B008VDPHS8",
@@ -33603,7 +33630,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1392
+    "originalIndex": 1393
   },
   {
     "id": "014342761X",
@@ -33630,7 +33657,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1393
+    "originalIndex": 1394
   },
   {
     "id": "B076NVV55B",
@@ -33663,7 +33690,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1394
+    "originalIndex": 1395
   },
   {
     "id": "B08Y7GW1FM",
@@ -33690,7 +33717,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1395
+    "originalIndex": 1396
   },
   {
     "id": "0141186542",
@@ -33711,7 +33738,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1396
+    "originalIndex": 1397
   },
   {
     "id": "0674427793",
@@ -33732,7 +33759,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1397
+    "originalIndex": 1398
   },
   {
     "id": "0674504445",
@@ -33753,7 +33780,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1398
+    "originalIndex": 1399
   },
   {
     "id": "B06XYQGKXX",
@@ -33780,7 +33807,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1399
+    "originalIndex": 1400
   },
   {
     "id": "B005X9ANKK",
@@ -33801,7 +33828,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1400
+    "originalIndex": 1401
   },
   {
     "id": "B00C7EGV5U",
@@ -33828,7 +33855,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1401
+    "originalIndex": 1402
   },
   {
     "id": "B06XY2BBK6",
@@ -33849,7 +33876,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1402
+    "originalIndex": 1403
   },
   {
     "id": "B087ZC68VN",
@@ -33888,7 +33915,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1403
+    "originalIndex": 1404
   },
   {
     "id": "B08L5RTMBP",
@@ -33909,7 +33936,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1404
+    "originalIndex": 1405
   },
   {
     "id": "B005MJFA2W",
@@ -33936,7 +33963,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1405
+    "originalIndex": 1406
   },
   {
     "id": "9352872746",
@@ -33957,7 +33984,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1406
+    "originalIndex": 1407
   },
   {
     "id": "030680834X",
@@ -33978,7 +34005,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1407
+    "originalIndex": 1408
   },
   {
     "id": "B07PPD6989",
@@ -34005,7 +34032,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1408
+    "originalIndex": 1409
   },
   {
     "id": "B0923FPMPR",
@@ -34032,7 +34059,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1409
+    "originalIndex": 1410
   },
   {
     "id": "B018X6D5Q8",
@@ -34053,7 +34080,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1410
+    "originalIndex": 1411
   },
   {
     "id": "B083Y28GKX",
@@ -34074,7 +34101,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1411
+    "originalIndex": 1412
   },
   {
     "id": "B0759T5B7D",
@@ -34095,7 +34122,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1412
+    "originalIndex": 1413
   },
   {
     "id": "0199457514",
@@ -34122,7 +34149,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1413
+    "originalIndex": 1414
   },
   {
     "id": "B01JARFL9S",
@@ -34143,7 +34170,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1414
+    "originalIndex": 1415
   },
   {
     "id": "B06XYPHCXW",
@@ -34164,7 +34191,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1415
+    "originalIndex": 1416
   },
   {
     "id": "B004LB59VE",
@@ -34185,7 +34212,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1416
+    "originalIndex": 1417
   },
   {
     "id": "B07XY3HDZ1",
@@ -34206,7 +34233,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1417
+    "originalIndex": 1418
   },
   {
     "id": "B00K1XOV5G",
@@ -34233,7 +34260,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1418
+    "originalIndex": 1419
   },
   {
     "id": "9391165672",
@@ -34254,7 +34281,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1419
+    "originalIndex": 1420
   },
   {
     "id": "B015DY9IDM",
@@ -34275,7 +34302,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1420
+    "originalIndex": 1421
   },
   {
     "id": "B09KBXF94K",
@@ -34296,7 +34323,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1421
+    "originalIndex": 1422
   },
   {
     "id": "0847681165",
@@ -34317,7 +34344,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1422
+    "originalIndex": 1423
   },
   {
     "id": "B004CZ4T56",
@@ -34338,7 +34365,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1423
+    "originalIndex": 1424
   },
   {
     "id": "B09TL6G81F",
@@ -34359,7 +34386,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1424
+    "originalIndex": 1425
   },
   {
     "id": "B075MH2XK4",
@@ -34380,7 +34407,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1425
+    "originalIndex": 1426
   },
   {
     "id": "1556111029",
@@ -34401,7 +34428,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1426
+    "originalIndex": 1427
   },
   {
     "id": "B002RI9VS0",
@@ -34422,7 +34449,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1427
+    "originalIndex": 1428
   },
   {
     "id": "B008LTSUI6",
@@ -34443,7 +34470,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1428
+    "originalIndex": 1429
   },
   {
     "id": "B08XQYMWVQ",
@@ -34464,7 +34491,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1429
+    "originalIndex": 1430
   },
   {
     "id": "8125008845",
@@ -34485,7 +34512,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1430
+    "originalIndex": 1431
   },
   {
     "id": "0804713278",
@@ -34506,7 +34533,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1431
+    "originalIndex": 1432
   },
   {
     "id": "B018TVAHWC",
@@ -34527,7 +34554,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1432
+    "originalIndex": 1433
   },
   {
     "id": "B001EBWIUO",
@@ -34548,7 +34575,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1433
+    "originalIndex": 1434
   },
   {
     "id": "B019MIIBYW",
@@ -34569,7 +34596,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1434
+    "originalIndex": 1435
   },
   {
     "id": "B0031RS290",
@@ -34590,7 +34617,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1435
+    "originalIndex": 1436
   },
   {
     "id": "B0G2S6PRC8",
@@ -34611,7 +34638,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1436
+    "originalIndex": 1437
   },
   {
     "id": "B004T1900M",
@@ -34638,7 +34665,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1437
+    "originalIndex": 1438
   },
   {
     "id": "B07Y8R2YXY",
@@ -34659,7 +34686,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1438
+    "originalIndex": 1439
   },
   {
     "id": "B002C06TN8",
@@ -34680,7 +34707,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1439
+    "originalIndex": 1440
   },
   {
     "id": "B09RPX6Z1F",
@@ -34701,7 +34728,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1440
+    "originalIndex": 1441
   },
   {
     "id": "B072XQT8RF",
@@ -34722,7 +34749,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1441
+    "originalIndex": 1442
   },
   {
     "id": "B002RI97MK",
@@ -34743,7 +34770,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1442
+    "originalIndex": 1443
   },
   {
     "id": "0300215126",
@@ -34770,7 +34797,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1443
+    "originalIndex": 1444
   },
   {
     "id": "B01ARQ4VP6",
@@ -34797,7 +34824,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1444
+    "originalIndex": 1445
   },
   {
     "id": "9383064161",
@@ -34818,7 +34845,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1445
+    "originalIndex": 1446
   },
   {
     "id": "B0CLRSQK36",
@@ -34845,7 +34872,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1446
+    "originalIndex": 1447
   },
   {
     "id": "9389152518",
@@ -34866,7 +34893,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1447
+    "originalIndex": 1448
   },
   {
     "id": "B082K7QXRQ",
@@ -34887,7 +34914,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1448
+    "originalIndex": 1449
   },
   {
     "id": "B00D2WPZUI",
@@ -34908,7 +34935,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1449
+    "originalIndex": 1450
   },
   {
     "id": "140120841X",
@@ -34935,7 +34962,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1450
+    "originalIndex": 1451
   },
   {
     "id": "9353496128",
@@ -34956,7 +34983,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1451
+    "originalIndex": 1452
   },
   {
     "id": "B0C3D12HH3",
@@ -34977,7 +35004,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1452
+    "originalIndex": 1453
   },
   {
     "id": "B07WRW6NBX",
@@ -34998,7 +35025,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1453
+    "originalIndex": 1454
   },
   {
     "id": "B00IA3NRAE",
@@ -35019,7 +35046,28 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1454
+    "originalIndex": 1455
+  },
+  {
+    "id": "9386622785",
+    "asin": "9386622785",
+    "title": "Varditalya Mansachya Nondi",
+    "amazonLink": "https://www.amazon.in/dp/9386622785?ref=cm_sw_r_ffobk_cp_ud_dp_bzr_F66NNJ0KHMQM1THG626D&ref_=cm_sw_r_ffobk_cp_ud_dp_bzr_F66NNJ0KHMQM1THG626D&social_share=cm_sw_r_ffobk_cp_ud_dp_bzr_F66NNJ0KHMQM1THG626D&bestFormat=true",
+    "episodeCount": 1,
+    "episodes": [
+      {
+        "episodeNum": 448,
+        "episodeTitle": "Vidya Mahambare The Rooted Economist",
+        "episodeDate": "2026-07-13",
+        "episodeUrl": "https://seenunseen.in/episodes/2026/7/13/episode-448-vidya-mahambare-the-rooted-economist/"
+      }
+    ],
+    "cover": "/images/covers/9386622785.jpg",
+    "backgroundColor": "#f0f0f0",
+    "textColor": "#1f1f2e",
+    "spineWidth": 43,
+    "height": 384,
+    "originalIndex": 1456
   },
   {
     "id": "B08HGKD49D",
@@ -35046,7 +35094,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1455
+    "originalIndex": 1457
   },
   {
     "id": "1628973307",
@@ -35067,7 +35115,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1456
+    "originalIndex": 1458
   },
   {
     "id": "9386797682",
@@ -35100,7 +35148,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 58,
     "height": 384,
-    "originalIndex": 1457
+    "originalIndex": 1459
   },
   {
     "id": "B00XZQB4JW",
@@ -35121,7 +35169,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1458
+    "originalIndex": 1460
   },
   {
     "id": "1784160024",
@@ -35142,7 +35190,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1459
+    "originalIndex": 1461
   },
   {
     "id": "0670093688",
@@ -35217,7 +35265,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 70,
     "height": 384,
-    "originalIndex": 1460
+    "originalIndex": 1462
   },
   {
     "id": "B08XLQZM39",
@@ -35316,7 +35364,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 120,
     "height": 384,
-    "originalIndex": 1461
+    "originalIndex": 1463
   },
   {
     "id": "B09N1R6L96",
@@ -35343,7 +35391,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1462
+    "originalIndex": 1464
   },
   {
     "id": "8178243202",
@@ -35376,7 +35424,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 55,
     "height": 384,
-    "originalIndex": 1463
+    "originalIndex": 1465
   },
   {
     "id": "B09LTBXVVJ",
@@ -35397,7 +35445,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1464
+    "originalIndex": 1466
   },
   {
     "id": "1401248195",
@@ -35418,7 +35466,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1465
+    "originalIndex": 1467
   },
   {
     "id": "B084V8D66B",
@@ -35439,7 +35487,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1466
+    "originalIndex": 1468
   },
   {
     "id": "B002ZJSV78",
@@ -35472,7 +35520,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1467
+    "originalIndex": 1469
   },
   {
     "id": "B00MT9EJZC",
@@ -35493,7 +35541,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1468
+    "originalIndex": 1470
   },
   {
     "id": "8174761675",
@@ -35514,7 +35562,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1469
+    "originalIndex": 1471
   },
   {
     "id": "B00VEF99R0",
@@ -35535,7 +35583,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1470
+    "originalIndex": 1472
   },
   {
     "id": "B00CBFPRNC",
@@ -35562,7 +35610,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1471
+    "originalIndex": 1473
   },
   {
     "id": "B0BGMN64VX",
@@ -35583,7 +35631,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1472
+    "originalIndex": 1474
   },
   {
     "id": "0552176222",
@@ -35604,7 +35652,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1473
+    "originalIndex": 1475
   },
   {
     "id": "0316154989",
@@ -35625,7 +35673,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1474
+    "originalIndex": 1476
   },
   {
     "id": "B08KYBCC15",
@@ -35646,7 +35694,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1475
+    "originalIndex": 1477
   },
   {
     "id": "B074799QZD",
@@ -35667,7 +35715,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1476
+    "originalIndex": 1478
   },
   {
     "id": "B005TIWYQ6",
@@ -35688,7 +35736,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1477
+    "originalIndex": 1479
   },
   {
     "id": "B0058O6OLW",
@@ -35709,7 +35757,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1478
+    "originalIndex": 1480
   },
   {
     "id": "B007IO1X5C",
@@ -35730,7 +35778,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1479
+    "originalIndex": 1481
   },
   {
     "id": "B07Z7YSZ3F",
@@ -35757,7 +35805,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1480
+    "originalIndex": 1482
   },
   {
     "id": "0008367469",
@@ -35778,7 +35826,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1481
+    "originalIndex": 1483
   },
   {
     "id": "B00JVCHBZ0",
@@ -35799,7 +35847,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1482
+    "originalIndex": 1484
   },
   {
     "id": "B07DR7Q16T",
@@ -35820,7 +35868,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1483
+    "originalIndex": 1485
   },
   {
     "id": "B01MSY5B4S",
@@ -35847,7 +35895,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 49,
     "height": 384,
-    "originalIndex": 1484
+    "originalIndex": 1486
   },
   {
     "id": "9380637349",
@@ -35868,7 +35916,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1485
+    "originalIndex": 1487
   },
   {
     "id": "B00HY59G7C",
@@ -35895,7 +35943,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1486
+    "originalIndex": 1488
   },
   {
     "id": "B09FJPQPJ1",
@@ -35916,7 +35964,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1487
+    "originalIndex": 1489
   },
   {
     "id": "B06XXYWRMV",
@@ -35937,7 +35985,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1488
+    "originalIndex": 1490
   },
   {
     "id": "0700608990",
@@ -35958,7 +36006,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1489
+    "originalIndex": 1491
   },
   {
     "id": "0471119792",
@@ -35979,7 +36027,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1490
+    "originalIndex": 1492
   },
   {
     "id": "B072WKXMML",
@@ -36000,7 +36048,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1491
+    "originalIndex": 1493
   },
   {
     "id": "9351772543",
@@ -36021,7 +36069,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1492
+    "originalIndex": 1494
   },
   {
     "id": "8189877151",
@@ -36042,7 +36090,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1493
+    "originalIndex": 1495
   },
   {
     "id": "B0084WT1SI",
@@ -36063,7 +36111,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1494
+    "originalIndex": 1496
   },
   {
     "id": "B01AH0JZV2",
@@ -36084,7 +36132,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1495
+    "originalIndex": 1497
   },
   {
     "id": "B07DKCRXYB",
@@ -36147,7 +36195,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1496
+    "originalIndex": 1498
   },
   {
     "id": "B0BM4YL9TQ",
@@ -36168,7 +36216,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1497
+    "originalIndex": 1499
   },
   {
     "id": "B09JBR5B5R",
@@ -36219,7 +36267,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 76,
     "height": 384,
-    "originalIndex": 1498
+    "originalIndex": 1500
   },
   {
     "id": "B078RNL968",
@@ -36240,7 +36288,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1499
+    "originalIndex": 1501
   },
   {
     "id": "1138019712",
@@ -36261,7 +36309,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1500
+    "originalIndex": 1502
   },
   {
     "id": "B06XXSFCLH",
@@ -36288,7 +36336,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1501
+    "originalIndex": 1503
   },
   {
     "id": "B007HLIUN4",
@@ -36309,7 +36357,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1502
+    "originalIndex": 1504
   },
   {
     "id": "B00AOF8C4M",
@@ -36336,7 +36384,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1503
+    "originalIndex": 1505
   },
   {
     "id": "B00I31UFH6",
@@ -36357,7 +36405,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1504
+    "originalIndex": 1506
   },
   {
     "id": "0300171307",
@@ -36378,7 +36426,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1505
+    "originalIndex": 1507
   },
   {
     "id": "B06Y649387",
@@ -36417,7 +36465,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 52,
     "height": 384,
-    "originalIndex": 1506
+    "originalIndex": 1508
   },
   {
     "id": "B093PF9F5G",
@@ -36438,7 +36486,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1507
+    "originalIndex": 1509
   },
   {
     "id": "0593423062",
@@ -36459,7 +36507,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1508
+    "originalIndex": 1510
   },
   {
     "id": "B002RI9ZZ4",
@@ -36480,7 +36528,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1509
+    "originalIndex": 1511
   },
   {
     "id": "0007353553",
@@ -36501,7 +36549,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 43,
     "height": 384,
-    "originalIndex": 1510
+    "originalIndex": 1512
   },
   {
     "id": "B0082XTQHU",
@@ -36522,7 +36570,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1511
+    "originalIndex": 1513
   },
   {
     "id": "0374185433",
@@ -36543,7 +36591,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1512
+    "originalIndex": 1514
   },
   {
     "id": "B07P9TWL94",
@@ -36564,7 +36612,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1513
+    "originalIndex": 1515
   },
   {
     "id": "B0B5LFYJSJ",
@@ -36603,7 +36651,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1514
+    "originalIndex": 1516
   },
   {
     "id": "B07Q6K4595",
@@ -36624,7 +36672,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1515
+    "originalIndex": 1517
   },
   {
     "id": "0063052644",
@@ -36645,7 +36693,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1516
+    "originalIndex": 1518
   },
   {
     "id": "B08TBGBCJJ",
@@ -36666,7 +36714,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1517
+    "originalIndex": 1519
   },
   {
     "id": "9389830885",
@@ -36687,7 +36735,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1518
+    "originalIndex": 1520
   },
   {
     "id": "B0B75MWX1Y",
@@ -36708,7 +36756,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1519
+    "originalIndex": 1521
   },
   {
     "id": "8125014241",
@@ -36771,7 +36819,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 64,
     "height": 384,
-    "originalIndex": 1520
+    "originalIndex": 1522
   },
   {
     "id": "B00BSS1KOI",
@@ -36792,7 +36840,7 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1521
+    "originalIndex": 1523
   },
   {
     "id": "B00KHX0II4",
@@ -36813,6 +36861,6 @@
     "textColor": "#1f1f2e",
     "spineWidth": 46,
     "height": 384,
-    "originalIndex": 1522
+    "originalIndex": 1524
   }
 ]

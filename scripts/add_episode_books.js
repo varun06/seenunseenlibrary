@@ -72,7 +72,7 @@ function extractEpisodeInfo(episodeUrl) {
 }
 
 function isShortLink(url) {
-    return /amzn\.(in|to|com|eu)\/d\/[A-Za-z0-9]+/.test(url);
+    return /^https?:\/\/(amzn\.(in|to|com|eu)|a\.co)\//i.test(url);
 }
 
 function resolveShortLink(shortUrl) {
